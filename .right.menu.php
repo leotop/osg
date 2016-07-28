@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"технология 1c битрикс", 
+		"/company/bitrix-technology/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"osg webshop", 
+		"/company/web-shop-technology/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"пресса о нас", 
+		"/company/press-about-us/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"отзывы", 
+		"/company/reviews/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"публикации", 
+		"/company/our-publications/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"пресс-релизы", 
+		"/release/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"новости", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"вакансии", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
