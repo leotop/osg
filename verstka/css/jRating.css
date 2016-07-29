@@ -1,0 +1,97 @@
+/*********************/
+/** jRating CSS **/
+/*********************/
+
+/**Div containing the color of the stars */
+#ratet .catRating  .jRatingAverage {
+	background-color:#b3b3b3;
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:20px;
+}
+#ratet .catRating  .jRatingColor {
+	background-color:#b0cc3b; /* bgcolor of the stars*/
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:20px;
+}
+
+/** Div containing the stars **/
+#ratet .catRating .jStar {
+	position:relative;
+	left:0;
+	z-index:3;
+}
+
+/** P containing the rate informations **/
+#ratet .catRating   p.jRatingInfos {
+	position:		absolute;
+	z-index:9999;
+	background:	transparent url('/i/rating_catalog_elements.png') no-repeat;
+	color:			#b3b3b3;
+	display:		none;
+	width:			20px;
+	height:			19px;	
+	font-size:16px;
+	text-align:center;
+	padding-top:7px;
+
+}
+ #ratet .catRating  p.jRatingInfos span.maxRate {
+		color:#c9c9c9;
+		font-size:14px;
+	}
+
+
+/*********************/
+/** jRating CSS **/
+/*********************/
+
+/**Div containing the color of the stars */
+.jRating .jRatingAverage {
+	background-color:#b3b3b3;
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:100%;
+}
+.jRating .jRatingColor {
+	background-color:#f4c239; /* bgcolor of the stars*/
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:100%;
+}
+
+/** Div containing the stars **/
+.jRating .jStar {
+	position:relative;
+	left:0;
+	z-index:3;
+}
+
+/** P containing the rate informations **/
+.jRating  p.jRatingInfos {
+	position:		absolute;
+	z-index:9999;
+	background:	transparent url('/i/rating.png') no-repeat;
+	color:			#b3b3b3;
+	display:		none;
+	width:			7px;
+	height:			29px;	
+	font-size:16px;
+	text-align:center;
+	padding-top:7px;
+}
+.jRating p.jRatingInfos span.maxRate {
+		color:#c9c9c9;
+		font-size:14px;
+	}
+	
+	

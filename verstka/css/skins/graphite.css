@@ -1,0 +1,20 @@
+.graphite .accordion{font: bold 14px Arial, sans-serif; float: right; }
+
+.graphite .accordion, .graphite .accordion li {margin: 0; padding: 0; border: none;}
+.graphite .accordion > li > a {padding: 10px 10px 10px 35px;height: 13px; background: url(/i/left-menu-main-el.png) repeat-x 0 -1px; display: block; color: #989898;  position: relative;}
+.graphite .accordion > ul > a {background: white;}
+.graphite .accordion > li > a.dcjq-parent, .graphite .accordion > li > a.dcjq-parent:hover {background:  url(/i/left-menu-main-el.png) repeat-x 0 -1px;}
+.graphite .accordion  li ul  a.dcjq-parent {clear: both;   background-color: yellow; padding: 0 0 0 5px; background: url(/i/icon_small_left_menu.png) no-repeat 0 center; } 
+.graphite .accordion  li ul  li { padding-left:+10px;; text-align: left;}
+.graphite .accordion li ul  a.dcjq-parent:hover { text-decoration: underline; }
+
+
+.graphite .accordion  > li > a.dcjq-parent.active { text-decoration: underline; }
+.graphite .accordion  li  span{background-color: red;}
+.graphite .accordion > li > a .dcjq-icon {position: absolute; top: 50%; left: 14px; width: 20px; margin-top: -17px; height: 34px; background: url(/i/slider-left-icon.png) no-repeat 0 center;}
+
+.graphite .accordion > li > ul > li a.dcjq-parent.active  .dcjq-icon { width: 20px; }
+
+.graphite .accordion > li > a.dcjq-parent.active > .dcjq-icon {background: url(/i/slider-left-icon-down.png) no-repeat 0 center;}
+.graphite .accordion > li > a:hover {background:  url(/i/left-menu-main-el.png) repeat-x; color: #989898;}
+.graphite .accordion > li > a:active{}
