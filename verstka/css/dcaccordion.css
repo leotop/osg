@@ -1,0 +1,32 @@
+/* Page */
+
+/*ul, ul li{list-style: none;}
+ul.text {margin-bottom: 1em; line-height: 1.5em; height: 34px;}
+h2 {font: normal 26px Arial, sans-serif; padding: 20px 0; margin: 0 0 30px 0;}*/
+
+
+
+/* Page */
+
+.demo-container ul, ul li{list-style: none; width: 100%; padding:  0 0 0 0; margin: 0 0 0 0;}
+
+.demo-container > ul > li > ul{list-style: none; width: 100%; padding:  0 0 0 18px;; margin: 0 0 0 0;}
+
+.dgraphite demo-container ul.text {margin-bottom: 1em; line-height: 1.5em; height: 34px;padding: 0 0 0 0;}
+.demo-container .text-center {text-align: center;}
+.demo-container h2 {font: normal 26px Arial, sans-serif; padding: 0 0 0 0; margin: 0 0 30px 0;}
+.demo-container .wrap {width: 100%; margin: 0 auto;}
+.demo-container .demo-container {padding: 0; float: left; width: 100%;}
+.demo-container .demo-container h4 {font-size: 14px; margin: 0 0 5px 0;}
+
+.demo-container a {
+	color: #989898;
+	text-decoration: none;
+}
+
+.demo-container .dcjq-count {float: right; padding: 0 0 0 0;}
+
+.dcjq-icon	{
+	width: 10px;
+	height: 10px;
+}
