@@ -403,24 +403,30 @@ header {
     line-height: 24px;
 }
 
+
+.header_descr span{
+    color:#fff !important;
+    font-weight: bold;
+}
+
 .site_titles_right {
     float:right;
     margin-top:4px
 }
 
-.site_titles_right div:first-child {
+.site_titles_right .top_phone {
     font-family: PFDinTextProBold;
     color:#e54e30;
     font-size: 30px;
 }
 
-.site_titles_right div:first-child mark {
+.site_titles_right .top_phone span {
     font-family: PFDinTextProRegular !important;
     color:#818181 !important;
     font-size: 24px !important;
 }
 
-.site_titles_right div:nth-child(2) {
+.site_titles_right .top_mail{
     font-family: PFDinTextProRegular;
     color:#fff;
     font-size: 14px;
@@ -439,7 +445,7 @@ header {
     margin-top:21px;
 }
 
-.slide_text_content div:first-child {
+.slide_text_content .slide_top_text_content {    
     font-family: PFDinTextProBold;
     color:#fff;
     font-size: 30px; 
@@ -447,12 +453,13 @@ header {
     line-height: 29px;
 }
 
-.slide_text_content div:first-child mark {
+
+.slide_text_content .slide_top_text_content span {
     color:#e54e30 !important;
     font-size: 24px !important;
 }
 
-.slide_text_content div:nth-child(2) {
+.slide_text_content .slide_main_text_content {
     font-family: PTSerifRegular;
     color:#fff;
     font-size: 13px;
@@ -461,10 +468,9 @@ header {
     line-height: 20px; 
 } 
 
-.slide_text_content div:nth-child(2) mark {
+.slide_text_content .slide_main_text_content span {
     color:#ecbea3 !important;
 }
-
 
 .content_block1 {
     width:980px;
