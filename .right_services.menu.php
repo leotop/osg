@@ -1,50 +1,57 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Разработка интернет-магазина", 
-		"/services/create-proj/", 
+		"Внедрение CRM", 
+		"/services/crm/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Продвижение интернет <br> магазина", 
-		"/services/search-opt/", 
+		"Настройка<br>бизнес-процессов", 
+		"/services/bp/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Поддержка, обслуживание 1С", 
-		"/services/1c/", 
+		"Настройка работы <br>с задачами и проектами", 
+		"/services/projects/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Поддержка и развитие интернет-магазина", 
-		"/services/support", 
+		"Настройка телефонии", 
+		"/services/phone/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Увеличение конверсии и продаж", 
-		"/services/sale-up", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Интеграция интернет магазина с 1С", 
+		"Интеграция Битрикс24 с 1С <br>и интернет-магазином", 
 		"/services/integration-1c/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Контекстная реклама сайта", 
-		"/services/site-commerce/", 
+		"Настройка рабочего времени и отчетов", 
+		"/services/worktime/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Настройка совместной работы с документами", 
+		"/services/docs/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Еще возможности", 
+		"/services/scope/", 
 		Array(), 
 		Array(), 
 		"" 

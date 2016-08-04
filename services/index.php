@@ -3,12 +3,14 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Услуги");
 ?>
                                                                               
-           <p><a href="/services/create-proj/">Создание интернет магазина под ключ / разработка интернет-магазина</a></p>
-           <p><a href="/services/search-opt/">Продвижение интернет магазина / оптимизация интернет-магазина</a></p>
-           <p><a href="/services/1c/">Поддержка, обслуживание 1С</a></p>
-           <p><a href="/services/support">Поддержка и развитие интернет-магазина</a></p>
-           <p><a href="/services/sale-up">Увеличение конверсии и продаж</a></p>
-           <p><a href="/services/integration-1c">Интеграция интернет магазина с 1С</a></p>
-           <p><a href="/services/site-commerce/">Контекстная реклама сайта</a></p>
+           <p><a href="/services/crm/">Внедрение CRM</a></p>
+           <p><a href="/services/bp/">Настройка бизнес-процессов</a></p>
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+           <p><a href="/services/projects/">Настройка работы с задачами и проектами</a></p>
+         <p><a href="/services/phone/">Настройка телефонии</a></p>
+
+           <p><a href="/services/integration-1c/">Интеграция Битрикс24 с 1С и интернет-магазином</a></p>
+  
+           <p><a href="/services/worktime/">Настройка рабочего времени и отчетов</a></p>
+           <p><a href="/services/docs/">Настройка совместной работы с документами</a></p>
+          <p><a href="/services/scope/">Еще возможности</a></p><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

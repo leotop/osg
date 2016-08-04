@@ -22,20 +22,6 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Портфолио", 
-		"/portfolio/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Партнерам", 
-		"/partners/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
 		"Техподдержка", 
 		"/tech-support/", 
 		Array(), 

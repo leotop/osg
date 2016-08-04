@@ -9,30 +9,30 @@ $APPLICATION->SetPageProperty("description", "OSG - создание, продвижение и техп
         <div class="orange_line"><span>заказать</span></div>
 
         <div class="content_block1_left"> 
-            <div class="content_block_title">при создании интернет магазина вы можете</div>
+            <div class="content_block_title">на основе Ѕитрикс24 вы можете</div>
 
             <div class="services_list"> 
-                <div class="service_div"> <a href="/services/search-opt/" > <span class="service_list_number">01</span><span class="service_list_title black">продвижение интернет магазина и поисковую оптимизацию</span> 
+                <div class="service_div"> <a href="/services/crm/" > <span class="service_list_number">01</span><span class="service_list_title black">внедрить CRM</span> 
                     <div><img src="/verstka/images/osg_final_011.png"  /> </div>
                 <span class="service_bgd"></span> </a> </div>
 
-                <div class="service_div"> <a href="/services/support-and-hosting/" > <span class="service_list_number">02</span><span class="service_list_title">техническую поддержку и хостинг</span> 
+                <div class="service_div"> <a href="/services/bp/" > <span class="service_list_number">02</span><span class="service_list_title">настроить бизнес-процессы</span> 
                     <div><img src="/verstka/images/s1.png"  /> </div>
                 <span class="service_bgd"></span> </a> </div>
 
-                <div class="service_div s_margins"> <a href="/services/integration-1c/" > <span class="service_list_number">03</span><span class="service_list_title">интеграцию интернет-магазина и 1—</span> 
+                <div class="service_div s_margins"> <a href="/services/projects/" > <span class="service_list_number">03</span><span class="service_list_title">настроить работу с задачами и проектами</span> 
                     <div><img src="/verstka/images/s3.png"  /> </div>
                 <span class="service_bgd"></span> </a> </div>
 
-                <div class="service_div margintop2"> <a href="/services/shop-info/" > <span class="service_list_number">04</span><span class="service_list_title black">информационное наполнение интернет-магазина</span> 
+                <div class="service_div margintop2"> <a href="/services/phone/" > <span class="service_list_number">04</span><span class="service_list_title black">настроить телефонию</span> 
                     <div><img src="/verstka/images/s4.png"  /> </div>
                 <span class="service_bgd"></span> </a> </div>
 
-                <div class="service_div s_margins"> <a href="/services/create-dizain/" > <span class="service_list_number">05</span><span class="service_list_title black">разработку дизайна сайта</span> 
+                <div class="service_div s_margins"> <a href="/services/integration-1c/" > <span class="service_list_number">05</span><span class="service_list_title black">интегрировать битрикс24 с 1— и интернет-магазином</span> 
                     <div><img src="/verstka/images/s5.png"  /> </div>
                 <span class="service_bgd"></span> </a> </div>
 
-                <div class="service_div margintop2"> <a href="/services/create-proj/" > <span class="service_list_number">06</span><span class="service_list_title">разработку полного интернет-проекта</span> 
+                <div class="service_div margintop2"> <a href="/services/worktime/" > <span class="service_list_number">06</span><span class="service_list_title">настроить рабочее врем€ и отчеты</span> 
                     <div><img src="/verstka/images/s6.png"  /> </div>
                 <span class="service_bgd"></span> </a> </div>
             </div>
