@@ -16,7 +16,7 @@ $news_date=$exp_date[0].'/'.$exp_date[1];
     $this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
     ?>
          
-         <?if ($i<3) {?>
+         <?if ($i<4) {?>
          <div class="news_list_div"> 
             <div class="news_list_title"><a href="<?=$arItem['DETAIL_PAGE_URL']?>"><?=$arItem['NAME']?></a></div>
            

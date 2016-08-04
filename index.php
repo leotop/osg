@@ -1,8 +1,8 @@
 <?
-    require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("keywords", "osg");
 $APPLICATION->SetPageProperty("description", "OSG - создание, продвижение и техподдержка интернет-магазинов в Москве");
-    $APPLICATION->SetTitle("OSG - создание, продвижение интернет-магазинов");
+$APPLICATION->SetTitle("OSG - создание, продвижение интернет-магазинов");
 ?> 
 <div class="index_wrapper1"> 
     <div class="content_block1"> 
@@ -12,29 +12,38 @@ $APPLICATION->SetPageProperty("description", "OSG - создание, продвижение и техп
             <div class="content_block_title">при создании интернет магазина вы можете</div>
 
             <div class="services_list"> 
-                <div class="service_div"> <a href="/services/search-opt/" > <span class="service_list_number">01</span><span class="service_list_title black">продвижение интернет магазина и поисковую оптимизацию</span> 
-                    <div><img src="/verstka/images/osg_final_011.png"  /> </div>
+                <div class="service_div"> <a href="/services/search-opt/" > <span class="service_list_number">01</span><span class="service_list_title black">внедрение CRM</span> 
+                    <div><img src="/verstka/images/osg_2016_1.png"  /> </div>
                 <span class="service_bgd"></span> </a> </div>
 
-                <div class="service_div"> <a href="/services/support-and-hosting/" > <span class="service_list_number">02</span><span class="service_list_title">техническую поддержку и хостинг</span> 
-                    <div><img src="/verstka/images/s1.png"  /> </div>
+                <div class="service_div"> <a href="/services/support-and-hosting/" > <span class="service_list_number">02</span><span class="service_list_title">настройка бизнес-процессов</span> 
+                    <div><img src="/verstka/images/osg_2016_2.png"  /> </div>
                 <span class="service_bgd"></span> </a> </div>
 
-                <div class="service_div s_margins"> <a href="/services/integration-1c/" > <span class="service_list_number">03</span><span class="service_list_title">интеграцию интернет-магазина и 1С</span> 
-                    <div><img src="/verstka/images/s3.png"  /> </div>
+                <div class="service_div s_margins"> <a href="/services/integration-1c/" > <span class="service_list_number">03</span><span class="service_list_title">настройка работы с задачми и проектами</span> 
+                    <div><img src="/verstka/images/osg_2016_3.png"  /> </div>
                 <span class="service_bgd"></span> </a> </div>
 
-                <div class="service_div margintop2"> <a href="/services/shop-info/" > <span class="service_list_number">04</span><span class="service_list_title black">информационное наполнение интернет-магазина</span> 
-                    <div><img src="/verstka/images/s4.png"  /> </div>
+                <div class="service_div margintop2"> <a href="/services/shop-info/" > <span class="service_list_number">04</span><span class="service_list_title black">настройка телефонии</span> 
+                    <div><img src="/verstka/images/osg_2016_4.png"  /> </div>
+                <span class="service_bgd"></span> </a> </div>  
+
+                <div class="service_div s_margins"> <a href="/services/create-dizain/" > <span class="service_list_number">05</span><span class="service_list_title black">интеграция с 1с и интернет-магазином</span> 
+                    <div><img src="/verstka/images/osg_2016_5.png"  /> </div>
                 <span class="service_bgd"></span> </a> </div>
 
-                <div class="service_div s_margins"> <a href="/services/create-dizain/" > <span class="service_list_number">05</span><span class="service_list_title black">разработку дизайна сайта</span> 
-                    <div><img src="/verstka/images/s5.png"  /> </div>
+                <div class="service_div margintop2"> <a href="/services/create-proj/" > <span class="service_list_number">06</span><span class="service_list_title">настройка рабочего времени и отчетов</span> 
+                    <div><img src="/verstka/images/osg_2016_6.png"  /> </div>
+                <span class="service_bgd"></span> </a> </div>
+                                                              
+                <div class="service_div s_margins"> <a href="/services/create-dizain/" > <span class="service_list_number">07</span><span class="service_list_title">настройка совместной работы с документами</span> 
+                    <div><img src="/verstka/images/osg_2016_7.png"  /> </div>
                 <span class="service_bgd"></span> </a> </div>
 
-                <div class="service_div margintop2"> <a href="/services/create-proj/" > <span class="service_list_number">06</span><span class="service_list_title">разработку полного интернет-проекта</span> 
-                    <div><img src="/verstka/images/s6.png"  /> </div>
+                <div class="service_div margintop2"> <a href="/services/create-proj/" > <span class="service_list_number">08</span><span class="service_list_title black">и многое другое</span> 
+                    <div><img src="/verstka/images/osg_2016_8.png"  /> </div>
                 <span class="service_bgd"></span> </a> </div>
+
             </div>
         </div>
 
@@ -123,6 +132,12 @@ $APPLICATION->SetPageProperty("description", "OSG - создание, продвижение и техп
 		"USE_SHARE" => "N",
 		"AJAX_OPTION_ADDITIONAL" => "",
 		"ADD_ELEMENT_CHAIN" => "N",
+		"COMPONENT_TEMPLATE" => "news",
+		"SET_LAST_MODIFIED" => "N",
+		"DETAIL_SET_CANONICAL_URL" => "N",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"SHOW_404" => "N",
+		"MESSAGE_404" => "",
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",
@@ -237,12 +252,12 @@ $APPLICATION->SetPageProperty("description", "OSG - создание, продвижение и техп
 
     <div class="service_div_wrapper2"> 
         <div class="service_div2"> <a href="/services/create-proj/" > 
-            <div><img class="service_div2_img" src="/verstka/images/s211.png"  /> </div>
-        <span class="service_bgd2"> <span class="service_list_title2">создание <mark>интернет магазинов</mark></span><img class="service_list_arrow2" src="/verstka/images/arrow.png"  /> </span> </a> </div>
+            <div><img class="service_div2_img" src="/verstka/images/osg_2016_01.png"  /> </div>
+        <span class="service_bgd2"> <span class="service_list_title2">внедрение <mark>коробочной версии Битрикс24</mark></span><img class="service_list_arrow2" src="/verstka/images/arrow.png"  /> </span> </a> </div>
 
         <div class="service_div2"> <a href="/services/search-opt/" > 
-            <div><img class="service_div2_img" src="/verstka/images/s22.png"  /> </div>
-        <span class="service_bgd2"> <span class="service_list_title2">продвижение <mark>интернет магазинов</mark></span><img class="service_list_arrow2" src="/verstka/images/arrow.png"  /> </span> </a> </div>
+            <div><img class="service_div2_img" src="/verstka/images/osg_2016_02.png"  /> </div>
+        <span class="service_bgd2"> <span class="service_list_title2">внедрение <mark>облачной версии Битрикс24</mark></span><img class="service_list_arrow2" src="/verstka/images/arrow.png"  /> </span> </a> </div>
 
         <div class="service_div2"> <a href="/services/1c/" > 
             <div><img class="service_div2_img" src="/verstka/images/s21.png"  /> </div>
