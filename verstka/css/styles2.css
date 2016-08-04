@@ -479,7 +479,7 @@ header {
     position: relative;
     top:242px;
     z-index:2;
-    min-height:844px;
+    min-height:1010px;
 }
 
 
@@ -628,20 +628,8 @@ header {
    color:#fff !important; 
 }
 
-.service_div:nth-child(3) .service_list_number {
-    color:#bfbfbf;
-}
-
 .banners_fff {
     position: absolute; left:982px; z-index:999; height: 140px; width: 9999px
-}
-
-.service_div:nth-child(2) .service_list_number {
-    color:#949494;
-}
-
-.service_div:nth-child(6) .service_list_number {
-    color:#bfbfbf;
 }
 
 .service_list_number {
@@ -650,7 +638,7 @@ header {
     top:16px;
     left:23px;
     font-family: PlayFairDisplayRegular;
-    color:#808080;
+    color:#e54e30;
     font-size: 48px; 
 }
 
@@ -1445,9 +1433,9 @@ footer div mark {
 }
 
 .content_block1_grey {
-    height:320px;
+    height: 385px;
     position:absolute;
-    bottom:248px;
+    bottom: 243px;
     left:476px;
     z-index:-1;
     background: #f7f7f7;
