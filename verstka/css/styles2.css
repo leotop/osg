@@ -1526,7 +1526,8 @@ footer div mark {
     background: #000000;
     z-index:3;
     width:9999px;
-    height:40px;
+    height:40px;    
+    line-height: 20px; 
 }
  
 
@@ -1590,13 +1591,6 @@ p {
     line-height: 20px; 
 }
 
-.site_wrapper {
-    font-family: PTSerifRegular;
-    color:#808080;
-    font-size: 14px;
-    line-height: 20px; 
-}
-
 .inner1_left_text_div div:last-child mark {
     color:#000000 !important;
 }
@@ -1617,6 +1611,7 @@ p {
     margin-top:78px;
     width:100%;
     text-align: right;
+    line-height: 20px; 
 }
 
 .inner1_ul li {
