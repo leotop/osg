@@ -260,7 +260,7 @@ var left=parseInt($('.brands_content').css("left"))*1+brands_width13;
                 <div class="header_bgd">
                     <div class="header_bgd_wrapper">
 
-                    <?include($_SERVER['DOCUMENT_ROOT'].'/local/templates/.default/include/top_field.php') ?>
+                    <?include($_SERVER['DOCUMENT_ROOT'].'/local/templates/.default/include/top_field.php')?>
 
                         <div class="header_slide">
 
