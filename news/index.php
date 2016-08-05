@@ -78,6 +78,12 @@ $APPLICATION->SetTitle("Новости");
 		"PAGER_SHOW_ALL" => "N",
 		"AJAX_OPTION_ADDITIONAL" => "",
 		"ADD_ELEMENT_CHAIN" => "N",
+		"COMPONENT_TEMPLATE" => ".default",
+		"SET_LAST_MODIFIED" => "N",
+		"DETAIL_SET_CANONICAL_URL" => "N",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"SHOW_404" => "N",
+		"MESSAGE_404" => "",
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",
