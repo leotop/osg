@@ -13,4 +13,6 @@ $APPLICATION->SetTitle("Услуги");
   
            <p><a href="/services/worktime/">Настройка рабочего времени и отчетов</a></p>
            <p><a href="/services/docs/">Настройка совместной работы с документами</a></p>
-          <p><a href="/services/scope/">Еще возможности</a></p><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+          <p><a href="/services/scope/">Еще возможности</a></p>
+  <p><a href="/services/boxbitrix24/">Внедрение коробочной версии Битрикс24</a></p>
+  <p><a href="/services/cloudbitrix24/">Внедрение облачной версии Битрикс24</a></p><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

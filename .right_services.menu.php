@@ -55,6 +55,20 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
+	),
+	Array(
+		"Внедрение коробочной версии Битрикс24", 
+		"/services/boxbitrix24/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Внедрение облачной версии Битрикс24", 
+		"/services/cloudbitrix24/", 
+		Array(), 
+		Array(), 
+		"" 
 	)
 );
 ?>
