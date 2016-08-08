@@ -1,36 +1,42 @@
  <div class="footer_wrapper">
     <div class="footer_content_wrapper">
         <div class="footer_content">
-            <div class="footer_div">
-                <div class="footer_div_title">готовые решения</div>
-                <div class="footer_list">
-                    <div><a href="http://www.osg.ru/solutions/1c-bitrix-ypravlenie-saytom/">1С-Битрикс: Управление сайтом</a></div>
-                    <div><a href="http://www.osg.ru/solutions/internet-magazin-fodex-plus/">Интернет-магазин FODEX +</a></div>
-                    <div><a href="http://www.osg.ru/solutions/osg-deti-mags-ru/">OSG Deti.mags.ru</a></div>
-                    <div><a href="http://www.osg.ru/solutions/osg-internet-magazin-enterprise-dlya-1c/">OSG Интернет-магазин Enterprise для 1С</a></div>
-                    <!--          <div><a href="#">Движок интернет-магазина</a></div> -->
-                    <div><a href="http://www.osg.ru/solutions/osg-internet-magazin-start/">OSG Интернет-магазин Start</a></div>
-                </div>
-            </div>
-                <?$APPLICATION->IncludeComponent(
-	"bitrix:menu", 
-	"menu_services_footer", 
-	array(
-		"ROOT_MENU_TYPE" => "bottom_services",
-		"MENU_CACHE_TYPE" => "N",
-		"MENU_CACHE_TIME" => "3600",
-		"MENU_CACHE_USE_GROUPS" => "Y",
-		"MENU_CACHE_GET_VARS" => array(
-		),
-		"MAX_LEVEL" => "1",
-		"CHILD_MENU_TYPE" => "left",
-		"USE_EXT" => "N",
-		"DELAY" => "N",
-		"ALLOW_MULTI_SELECT" => "N",
+            <div class="footer_div">                    
+            <?$APPLICATION->IncludeComponent("bitrix:menu", "menu_solutions_footer", Array(
+	"ROOT_MENU_TYPE" => "bottom_solutions",	// Тип меню для первого уровня
+		"MENU_CACHE_TYPE" => "N",	// Тип кеширования
+		"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
+		"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
+		"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
+		"MAX_LEVEL" => "1",	// Уровень вложенности меню
+		"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
+		"USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+		"DELAY" => "N",	// Откладывать выполнение шаблона меню
+		"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
 		"COMPONENT_TEMPLATE" => "menu_services_footer"
 	),
 	false
 );?>
+            </div>
+                <?$APPLICATION->IncludeComponent(
+	                "bitrix:menu", 
+	                "menu_services_footer", 
+	                array(
+		                "ROOT_MENU_TYPE" => "bottom_services",
+		                "MENU_CACHE_TYPE" => "N",
+		                "MENU_CACHE_TIME" => "3600",
+		                "MENU_CACHE_USE_GROUPS" => "Y",
+		                "MENU_CACHE_GET_VARS" => array(
+		                ),
+		                "MAX_LEVEL" => "1",
+		                "CHILD_MENU_TYPE" => "left",
+		                "USE_EXT" => "N",
+		                "DELAY" => "N",
+		                "ALLOW_MULTI_SELECT" => "N",
+		                "COMPONENT_TEMPLATE" => "menu_services_footer"
+	                ),
+	                false
+                );?>
 
                 <div class="footer_div footer_div_last">
                     <div class="footer_div_title">свяжитесь с нами</div>
