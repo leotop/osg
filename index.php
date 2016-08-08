@@ -324,7 +324,7 @@ $APPLICATION->SetTitle("OSG - создание, продвижение интернет-магазинов");
       <div class="shop_title shop_title_grey">Технологии Битрикс24 успешно используют</div>
      
       <div class="shop_bold">более <mark>1000000 компаний.</mark></div>
-     <a class="shop_button" href="#" >Все проекты</a> </div>
+     <a class="shop_button" href="https://www.bitrix24.ru/create.php?p=54236" >Попробовать</a> </div>
    </div>
  
   <div class="shops_bgd"></div>
@@ -340,9 +340,9 @@ $APPLICATION->SetTitle("OSG - создание, продвижение интернет-магазинов");
       <div class="defis3"></div>
      
       <div class="index_wrapper3_div_desc">
-        <div>Более 300 внедренных решений интегрированных с 1С.</div>
+        <div>Золотой партнер Битрикс</div>
        
-        <div>Это больше всех.</div>
+        <div>По внедрению продуктов Битрикс24</div>
        </div>
      </div>
    
@@ -360,14 +360,13 @@ $APPLICATION->SetTitle("OSG - создание, продвижение интернет-магазинов");
       <div class="defis3"></div>
      
       <div class="index_wrapper3_div_desc">
-        <div>Собственные решения, интегрированные с 1С</div>
+        <div>Более 300 внедренных решений интегрированных с 1С.</div>
        
-        <div>Успешно внедрены</div>
+        <div>Это больше всех</div>
        </div>
      </div>
    <img src="/verstka/images/img3.png"  /> 
     <div class="index_wrapper3_bottom"> самое выгодное <mark>сотрудничество для вас</mark> </div>
    </div>
  </div>
- 
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+ <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
