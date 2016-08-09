@@ -58,7 +58,7 @@
             </div>
 
             <div class="footer_grey">
-
+            <div class="after_footer_grey"><a href="http://www.webgk.ru/">Создание сайта</a> - WebGK</div>
             </div>
             <div class="footer_black"></div>
 
@@ -66,7 +66,7 @@
         </div>
 
         <footer>
-            <div>© "OSG | Online System Group" <mark>Создание и разработка интернет магазина</mark></div>
+            <div class="bottom_line_div">© "OSG | Online System Group" <mark>Профессиональные внедрения CRM-систем и корпоративных порталов на базе Битрикс24</mark></div>
 
             <!-- Yandex.Metrika counter --> 
             <script type="text/javascript"> 

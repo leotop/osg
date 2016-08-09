@@ -28,11 +28,11 @@ if ($i%2==0) {?>
            <div class="portf_preview_text">
            <?=$arItem['PREVIEW_TEXT']?>
            </div>
-           <a class="portf_detail_link" href="<?=$arItem['DETAIL_PAGE_URL']?>">смотреть кейс</a>
+           <a class="portf_detail_link" href="<?=$arItem['DETAIL_PAGE_URL']?>">подробнее</a>
            </div>
            
            </div>
-           <a href="<?=$arItem['DETAIL_PAGE_URL']?>"><div class="portf_div_inner"><div class="portf_div_inner2"><img class="portf_prev_img" src="<?=$f_path?>" /></div></div></a>
+           <a href="<?=$arItem['DETAIL_PAGE_URL']?>"><div class="portf_div_inner"><div class="portf_div_inner2"><img class="portf_prev_img" src="<?=$f_path?>" /><div class="triangle1"></div></div></div></a>
            </div>   
     
 <?} else {
@@ -40,7 +40,7 @@ if ($i%2==0) {?>
 
 ?>
 <div class="portf_div">
-           <a href="<?=$arItem['DETAIL_PAGE_URL']?>"><div class="portf_div_inner"><div class="portf_div_inner2"><img class="portf_prev_img" src="<?=$f_path?>" /></div></div></a>
+           <a href="<?=$arItem['DETAIL_PAGE_URL']?>"><div class="portf_div_inner"><div class="portf_div_inner2"><img class="portf_prev_img" src="<?=$f_path?>" /><div class="triangle"></div></div></div></a>
            <div class="portf_div_inner">
            <div class="portf_preview">
            <div><a href="<?=$arItem['DETAIL_PAGE_URL']?>"><?=$arItem['NAME']?></a></div>
@@ -48,7 +48,7 @@ if ($i%2==0) {?>
            <div class="portf_preview_text">
            <?=$arItem['PREVIEW_TEXT']?>
            </div>
-           <a class="portf_detail_link" href="<?=$arItem['DETAIL_PAGE_URL']?>">смотреть кейс</a>
+           <a class="portf_detail_link" href="<?=$arItem['DETAIL_PAGE_URL']?>">подробнее</a>
            </div>
            
            </div>

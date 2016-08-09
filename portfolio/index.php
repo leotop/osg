@@ -186,6 +186,5 @@ $APPLICATION->SetTitle("Портфолио");
 	),
 	false
 );?>
-<div class="bottom_bgd"></div>
  </div>
  <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

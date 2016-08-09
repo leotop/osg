@@ -79,6 +79,12 @@ $APPLICATION->SetTitle("Решения");?>
 		"USE_SHARE" => "N",
 		"AJAX_OPTION_ADDITIONAL" => "",
 		"ADD_ELEMENT_CHAIN" => "N",
+		"COMPONENT_TEMPLATE" => "solutions",
+		"SET_LAST_MODIFIED" => "N",
+		"DETAIL_SET_CANONICAL_URL" => "N",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"SHOW_404" => "N",
+		"MESSAGE_404" => "",
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",
@@ -87,8 +93,6 @@ $APPLICATION->SetTitle("Решения");?>
 	),
 	false
 );?>
-
-          <div class="bottom_bgd"></div> 
            </div>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
