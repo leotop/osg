@@ -265,7 +265,7 @@ $APPLICATION->SetTitle("OSG - Профессиональные внедрения CRM-систем и корпоратив
             <div><img class="service_div2_img" src="/verstka/images/s21.png"  /> </div>
         <span class="service_bgd2"> <span class="service_list_title2">Интегрируем <mark>битрикс24 с 1С и интернет-магазинами</mark></span><img class="service_list_arrow2" src="/verstka/images/arrow.png"  /> </span> </a> </div>
 
-        <div class="service_div2"> <a href="/services/tech-support/" > 
+        <div class="service_div2"> <a href="/tech-support/" > 
             <div><img class="service_div2_img" src="/verstka/images/s23.png"  /> </div>
         <span class="service_bgd2"> <span class="service_list_title2">поддерживаем <mark>и развиваем корпоративные порталы и CRM системы.</mark></span><img class="service_list_arrow2" src="/verstka/images/arrow.png"  /> </span> </a> </div>
     </div>
