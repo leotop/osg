@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("keywords", "osg");
-$APPLICATION->SetPageProperty("description", "OSG - создание, продвижение и техподдержка интернет-магазинов в Москве");
-$APPLICATION->SetTitle("OSG - создание, продвижение интернет-магазинов");
+$APPLICATION->SetPageProperty("description", "OSG - Профессиональные внедрения CRM-систем и корпоративных порталов на базе Битрикс24");
+$APPLICATION->SetTitle("OSG - Профессиональные внедрения CRM-систем и корпоративных порталов на базе Битрикс24. ");
 ?> 
 <div class="index_wrapper1"> 
     <div class="content_block1"> 

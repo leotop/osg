@@ -1,36 +1,36 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"1С-Битрикс: Управление сайтом", 
-		"/solutions/1c-bitrix-ypravlenie-saytom/", 
+		"Битрикс24. Коробочная версия", 
+		"/solutions/boxbitrix24/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Интернет-магазин FODEX", 
-		"/solutions/internet-magazin-fodex-plus/", 
+		"Битрикс24. Облачная версия", 
+		"/solutions/cloudbitrix24/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"OSG Deti.mags.ru", 
-		"/solutions/osg-deti-mags-ru/", 
+		"Мобильные приложения для Битрикс24 (iOS и Android)", 
+		"/solutions/mobile/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"OSG Интернет-магазин Enterprise для 1С", 
-		"/solutions/osg-internet-magazin-enterprise-dlya-1c/", 
+		"Десктоп-приложение", 
+		"/solutions/desktop/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"OSG Интернет-магазин Start", 
-		"/solutions/osg-internet-magazin-start/", 
+		"1С:Треккер Битрикс24", 
+		"/solutions/trekker/", 
 		Array(), 
 		Array(), 
 		"" 
