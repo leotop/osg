@@ -32,12 +32,13 @@
  
 function bgd_height() {
     var screen_width=parseInt($('body').css("width"));
-    var  s2=screen_width/2;
+    var s2=screen_width/2;
+    var s2_1=(screen_width)/2 + 135;
     //alert(980*1+s2);
     //alert(parseInt($('body').css("width")/2)+'px');
-   // $('.brands').css('width', parseInt(980*1+s2)+'px');
+    //$('.brands').css('width', parseInt(980*1+s2)+'px');
     $('footer > div').eq(1).css('width', s2-490+'px');
-    $('footer > div:first').css('width', s2*1+468+'px');
+    //$('footer > div:first').css('width', s2_1+'px');
 }
 
 

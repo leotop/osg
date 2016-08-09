@@ -306,31 +306,6 @@ header {
     text-decoration: none;
 }
 
-.top_menu ul:last-child li:first-child a {
-    background: url(/verstka/images/tw_black.png) no-repeat center top; 
-}
-
-.top_menu ul:last-child li:first-child:hover a {
-    background: url(/verstka/images/tw.png) no-repeat center top; 
-}
-
- .top_menu ul:last-child li:nth-child(2) a {
-    background: url(/verstka/images/fb_black.png) no-repeat center top; 
-}
-
-.top_menu ul:last-child li:nth-child(2):hover a {
-    background: url(/verstka/images/fb.png) no-repeat center top; 
-}
-
- .top_menu ul:last-child li:nth-child(3) a {
-    background: url(/verstka/images/vk_black.png) no-repeat center top; 
-}
-
-.top_menu ul:last-child li:nth-child(3):hover a {
-    background: url(/verstka/images/vk.png) no-repeat center top; 
-}
-
-
 .header_bgd {
     overflow: visible;
     height:300px;
@@ -347,7 +322,6 @@ header {
     top:0;
     z-index:2;
 }
-
 
 .header_slide {
     position:relative;
@@ -514,7 +488,7 @@ header {
 .inner1_left {
     float:left;
     width:75%;
-    
+    min-height: 400px;
 }
 
 .inner1_right {
@@ -877,7 +851,6 @@ header {
 
 .index_wrapper1 {
     overflow: hidden;
-    min-height: 413px;
 }
 
  .index_wrapper1_content {
@@ -1244,6 +1217,40 @@ margin-top:43px !important
     width:9999px;
 }
 
+.footer_grey:after 
+{
+    position:absolute;
+    height:40px;
+    width:51px;
+    top:340px;
+    right:-51px;
+    background: #cccccc;
+    z-index:4;    
+    content: "";
+}
+.footer_grey .after_footer_grey 
+{
+    position:absolute;
+    height:40px;
+    width:510px;
+    top:340px;
+    left:100%;
+    background: #ffffff;
+    z-index:4;    
+    margin-left: 91px;
+    line-height: 40px;
+    color: #121212;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+.footer_grey .after_footer_grey a
+{
+    git sstatuscolor: #e54e30;
+    text-decoration: none;
+}
+
+
 
 .in_title1 {
     position:absolute;
@@ -1398,7 +1405,7 @@ p {
 
 footer {
     position:relative;
-    z-index:4;
+    z-index:2;
     height:40px;
     background-color: #fff;
     
@@ -1411,12 +1418,13 @@ footer div:first-child {
     font-size: 13px;
     font-family: Arial;
     position:absolute;
-    background-image: url(/verstka/images/grey.png);
+    /*background-image: url(/verstka/images/grey.png);*/
     background-repeat: no-repeat;
     background-position: right top;
     top:0;
     left:0;
     height:40px ;
+    width: 100%;
     background-color: #fff;
 }
 
@@ -1525,7 +1533,7 @@ footer div mark {
     top:334px;
     background: #000000;
     z-index:3;
-    width:9999px;
+    width:100%;
     height:40px;    
     line-height: 20px; 
 }
@@ -2388,10 +2396,6 @@ h2 {
  
  .portf_top .portf_preview_link {
      margin-top:8px !important;
- }
- 
- .bottom_bgd {
-     background: url(/verstka/images/bottom_bgd.png) left top; height: 322px;
  }
  
  .inner1_ul li mark {
