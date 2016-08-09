@@ -2925,6 +2925,13 @@ h2 {
     margin-bottom: 60px;
 }
 
+.company_div p{
+    font-family: PTSerifRegular;
+    color: #909090;
+    font-size: 14px;
+    line-height: 24px;
+}
+
 /* --------------------------------------------------------------  */
 
 .info_project {
