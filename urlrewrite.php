@@ -49,16 +49,16 @@ $arUrlRewrite = array(
 		"PATH" => "/company/reviews/index.php",
 	),
 	array(
-		"CONDITION" => "#^/portfolio/#",
-		"RULE" => "",
-		"ID" => "bitrix:news",
-		"PATH" => "/portfolio/index.php",
-	),
-	array(
 		"CONDITION" => "#^/solutions/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",
 		"PATH" => "/solutions/index.php",
+	),
+	array(
+		"CONDITION" => "#^/portfolio/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/portfolio/index.php",
 	),
 	array(
 		"CONDITION" => "#^/products/#",
