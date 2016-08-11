@@ -48,7 +48,7 @@
                     <div class="shop_desc"><?=$arResult["ITEMS"][$k]["PREVIEW_TEXT"]?></div>
                 </div>
 
-                <a id="k<?=$k+1?>" class="shop_button<? if ($k > 0){?> invisible<?}?>" href="/portfolio/<?=$arResult["ITEMS"][$k]['FIELDS']['CODE']?>">Смотреть кейс</a> 
+                <a id="k<?=$k+1?>" class="shop_button<? if ($k > 0){?> invisible<?}?>" href="<?=$arResult["ITEMS"][$k]['DETAIL_PAGE_URL']?>">Смотреть кейс</a> 
                 <? 
                     $k++;
                 }
