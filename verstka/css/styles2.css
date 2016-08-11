@@ -1504,7 +1504,7 @@ footer div mark {
     margin-top:181px; 
     min-height: 55px;    
     position: absolute;
-    top: 461px;
+    top: 451px;
 }
 
 .quote {
@@ -1518,10 +1518,6 @@ footer div mark {
     text-align: right;
     margin-top:181px; 
     min-height: 55px;
-}
-.quote .quote-portfolio {
-    position: absolute;
-    top: 451px;
 }
 
 .quote mark:first-child, .quote-portfolio mark:first-child {
@@ -3425,12 +3421,13 @@ h2 {
     background: url(/verstka/images/quote.png) no-repeat left top;
     font-family: PlayFairDisplayItalic;
     position: absolute;
-    margin-top: -185px;
+    margin-top: -180px;
     margin-left: 30px;
     width: 590px;
     padding-left: 200px;
     z-index: 2;
     font-size: 16px;
+    min-height: 55px; 
 }
 .mod_in_title{
     background-color: black !important;
