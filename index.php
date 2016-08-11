@@ -299,7 +299,7 @@ $portfolioFilter = array("!PROPERTY_INDEX_IMAGE" => false);
 		"DISPLAY_PREVIEW_TEXT" => "Y",
 		"DISPLAY_TOP_PAGER" => "N",
 		"FIELD_CODE" => array(
-			0 => "",
+			0 => "CODE",
 			1 => "",
 		),
 		"FILTER_NAME" => "portfolioFilter",

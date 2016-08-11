@@ -13,7 +13,6 @@
     $this->setFrameMode(true);
 ?>
 
-
 <?                                                        
     $i = 0;
 ?> 
@@ -36,19 +35,20 @@
 </div>
 <?
     $k = 0;
-?> 
+?>
+
 <div class="shops_list"> 
     <div class="shop shop_left">
         <img class="arrow_img" src="/verstka/images/arrow_shops.png"  /> 
         <div class="shop_content"> 
             <? while ($k < $i) 
-                {?>
+                {?>                
                 <div id="i<?=$k+1?>" class="shop_text<? if ($k > 0){?> invisible<?}?>"> 
                     <div class="shop_title"><mark><?=$arResult["ITEMS"][$k]["NAME"]?></mark></div>
-
                     <div class="shop_desc"><?=$arResult["ITEMS"][$k]["PREVIEW_TEXT"]?></div>
                 </div>
-                <a id="k<?=$k+1?>" class="shop_button<? if ($k > 0){?> invisible<?}?>" href="<?=$arResult["ITEMS"][$k]['PROPERTIES']['P_LINK']['VALUE']?>" >Смотреть кейс</a> 
+
+                <a id="k<?=$k+1?>" class="shop_button<? if ($k > 0){?> invisible<?}?>" href="/portfolio/<?=$arResult["ITEMS"][$k]['FIELDS']['CODE']?>">Смотреть кейс</a> 
                 <? 
                     $k++;
                 }
