@@ -1492,6 +1492,21 @@ footer div mark {
     
 }
 
+.quote-portfolio {
+    overflow: hidden;
+    background: url(/verstka/images/quote.png) no-repeat left top;
+    line-height: 29px;
+    color:#000000;
+    font-size: 17px;
+    font-family: PlayFairDisplayItalic;
+    padding-left: 120px;
+    text-align: right;
+    margin-top:181px; 
+    min-height: 55px;    
+    position: absolute;
+    top: 461px;
+}
+
 .quote {
     overflow: hidden;
     background: url(/verstka/images/quote.png) no-repeat left top;
@@ -1504,18 +1519,22 @@ footer div mark {
     margin-top:181px; 
     min-height: 55px;
 }
+.quote .quote-portfolio {
+    position: absolute;
+    top: 451px;
+}
 
-.quote mark:first-child {
+.quote mark:first-child, .quote-portfolio mark:first-child {
     font-family: PlayFairBoldItalic !important; 
 }
 
-.quote a {
+.quote a, .quote-portfolio a {
     color:#e54e30 !important;
     border-bottom: 1px solid #E54E30;
     text-decoration: none;
 }
 
-.quote a:hover {
+.quote a:hover, .quote-portfolio a:hover {
     border-bottom: none;
 }
 
@@ -3406,7 +3425,7 @@ h2 {
     background: url(/verstka/images/quote.png) no-repeat left top;
     font-family: PlayFairDisplayItalic;
     position: absolute;
-    margin-top: -160px;
+    margin-top: -185px;
     margin-left: 30px;
     width: 590px;
     padding-left: 200px;

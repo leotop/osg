@@ -1,1 +1,1 @@
-<mark>Online System Group</mark> &mdash; внеренные проекты. –азумеетс€ не все.
+<mark>Online System Group</mark> Ч внедренные проекты. –азумеетс€ не все.

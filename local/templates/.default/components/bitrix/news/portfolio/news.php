@@ -1,5 +1,17 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 
+
+<div class="quote-portfolio">
+    <?$APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "",
+            Array(
+                "AREA_FILE_SHOW" => "page",
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => ""
+        ));?>
+</div>
+
 <?if($arParams["USE_RSS"]=="Y"):?>
 	<?
 	if(method_exists($APPLICATION, 'addheadstring'))

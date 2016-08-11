@@ -68,18 +68,6 @@
                 </div>
                 <div class="in_title1"><span><?$APPLICATION->ShowTitle();?></span></div>
 
-
-                <div class="quote">
-                    <?$APPLICATION->IncludeComponent(
-                            "bitrix:main.include",
-                            "",
-                            Array(
-                                "AREA_FILE_SHOW" => "page",
-                                "AREA_FILE_SUFFIX" => "inc",
-                                "EDIT_TEMPLATE" => ""
-                        )); ?>
-                </div>
-
                 <div class="in_title2"><span>Online System Group</span></div>
 
             </div>
