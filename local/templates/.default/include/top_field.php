@@ -19,13 +19,17 @@
 
     <div class="site_titles_right">
         <div class="top_phone">
+		<?
+			$altasib_city = getAltasibCity();
+			$phone_include_file = $altasib_city == "Тула" ? "tula_phone.php" : "phone.php";
+		?>
         <?$APPLICATION->IncludeComponent(
             "bitrix:main.include", 
             ".default", 
             array(
                 "COMPONENT_TEMPLATE" => ".default",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => "/include/phone.php",
+                "PATH" => "/include/" . $phone_include_file,
                 "EDIT_TEMPLATE" => ""
                 ),
             false

@@ -6,12 +6,41 @@ $APPLICATION->SetTitle("Контакты");
  
 <p>Вы можете обратиться к нам по телефону, по электронной почте или договориться о встрече в нашем офисе. Будем рады помочь вам и ответить на все ваши вопросы. </p>
  
-<h2>Телефон</h2>
-<p>(495) 215-20-29</p> 
+<h2>Телефоны</h2>
+ 
+<ul> 	 
+	<li>Телефон: 		 
+	    <ul> 			 
+	      <li>
+	      	<b>
+	      		<?
+					$altasib_city = getAltasibCity();
+					$phone_include_file = $altasib_city == "Тула" ? "tula_phone.php" : "phone.php";
+					$city_name = $altasib_city == "Тула" ? "Туле" : "Москве";
+					$coordinates = $altasib_city == "Тула" ? TULA_COORDINATES : MOSCOW_COORDINATES;
+				?>
+		        <?$APPLICATION->IncludeComponent(
+		            "bitrix:main.include", 
+		            ".default", 
+		            array(
+		                "COMPONENT_TEMPLATE" => ".default",
+		                "AREA_FILE_SHOW" => "file",
+		                "PATH" => "/include/" . $phone_include_file,
+		                "EDIT_TEMPLATE" => ""
+		                ),
+		            false
+		        );?>
+	      	</b>
+	      </li>
+	    </ul>
+	</li>
+</ul>
+ 
+
 <h2>Email</h2>
 <p><a href="mailto:bitrix24@osg.ru" >bitrix24@osg.ru</a></p>
  
-<h2>Офис в Москве</h2>
+<h2>Офис в <?= $city_name ?></h2>
 <p>г. Москва, ул. 2-я Филевская, д.7/19, корп.6</p>
  
 <p><?$APPLICATION->IncludeComponent(
@@ -19,8 +48,8 @@ $APPLICATION->SetTitle("Контакты");
 	".default", 
 	array(
 		"KEY" => "ABQIAAAAOSNukcWVjXaGbDo6npRDcxS1yLxjXbTnpHav15fICwCqFS-qhhSby0EyD6rK_qL4vuBSKpeCz5cOjw",
-		"INIT_MAP_TYPE" => "ROADMAP",
-		"MAP_DATA" => "a:4:{s:10:\"google_lat\";d:55.7383;s:10:\"google_lon\";d:37.5946;s:12:\"google_scale\";i:13;s:10:\"PLACEMARKS\";a:1:{i:0;a:3:{s:4:\"TEXT\";s:0:\"\";s:3:\"LON\";d:37.48973697423935;s:3:\"LAT\";d:55.73766365555607;}}}",
+		"INIT_MAP_TYPE" => "NORMAL",
+		"MAP_DATA" => $coordinates,
 		"MAP_WIDTH" => "600",
 		"MAP_HEIGHT" => "500",
 		"CONTROLS" => array(

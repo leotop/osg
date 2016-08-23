@@ -7,6 +7,8 @@
     AddEventHandler("iblock", "OnAfterIBlockElementAdd", "DoIBlockAfterSave");
     AddEventHandler("catalog", "OnPriceAdd", "DoIBlockAfterSave");
     AddEventHandler("catalog", "OnPriceUpdate", "DoIBlockAfterSave");
+	file_exists(dirname(__FILE__) . "/constants.php") ? require_once(dirname(__FILE__) . "/constants.php") : "";
+	
     function DoIBlockAfterSave($arg1, $arg2 = false)
     {
         $ELEMENT_ID = false;
@@ -163,8 +165,7 @@
             }
         }
     }
-?>
-<?
+
     function arshow($array){
         global $USER;
             if ($USER->IsAdmin()){
@@ -174,8 +175,7 @@
             }
     }
 
-?>
-<? //вывод разделов на главной (компонент furniture.catalog.index)
+	//вывод разделов на главной (компонент furniture.catalog.index)
     function sections($section) {
         switch(intval($section)) {
             case '1':$name='/block1/'; break;
@@ -188,4 +188,22 @@
         }
         return $name;
     }
+	
+	/**
+	 * Получаем название города, определенного модулем Altasib
+	 * Для работы необходим https://marketplace.1c-bitrix.ru/solutions/altasib.geoip/
+	 * 
+	 * @return string $city
+	 **/
+	 
+	function getAltasibCity() {
+		$city = "Москва";
+		if (CModule::IncludeModule("altasib.geoip")) {
+			$altasib_data = ALX_GeoIP::GetAddr();
+			if (!empty($altasib_data) && is_array($altasib_data) && $altasib_data['city']) {
+				$city = $altasib_data['city'];
+			}
+		}
+		return $city;
+	}
 ?>
