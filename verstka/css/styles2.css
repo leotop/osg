@@ -1,63 +1,73 @@
 @font-face {
-    font-family: PFHandbookProRegular;
-    src:url(/verstka/fonts/PFHandbookPro-Regular.eot);
+  font-family: 'PFHandbookProRegular';
+  src: url('/verstka/fonts/PFHandbookPro-Regular.eot');
+  src: url('/verstka/fonts/PFHandbookPro-Regular.woff2') format('woff2'),
+       url('/verstka/fonts/PFHandbookPro-Regular.woff') format('woff'),
+       url('/verstka/fonts/PFHandbookPro-Regular.ttf') format('truetype'),
+       url('/verstka/fonts/PFHandbookPro-Regular.svg#PFHandbookPro-Regular') format('svg'),
+       url('/verstka/fonts/PFHandbookPro-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: PFHandbookProRegular;
-    src:url(/verstka/fonts/PFHandbookPro-Regular.ttf);
+  font-family: 'PFDinTextProLight';
+  src: url('/verstka/fonts/pfdintextpro-light.eot');
+  src: url('/verstka/fonts/pfdintextpro-light.woff2') format('woff2'),
+       url('/verstka/fonts/pfdintextpro-light.woff') format('woff'),
+       url('/verstka/fonts/pfdintextpro-light.ttf') format('truetype'),
+       url('/verstka/fonts/pfdintextpro-light.svg#PFDinTextProLight') format('svg'),
+       url('/verstka/fonts/pfdintextpro-light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'PFDinTextProLight';
-    src: url('/verstka/fonts/pfdintextpro-light.eot');
+  font-family: 'PFDinTextProMedium';
+  src: url('/verstka/fonts/pfdintextpro-medium.eot');
+  src: url('/verstka/fonts/pfdintextpro-medium.woff2') format('woff2'),
+       url('/verstka/fonts/pfdintextpro-medium.woff') format('woff'),
+       url('/verstka/fonts/pfdintextpro-medium.ttf') format('truetype'),
+       url('/verstka/fonts/pfdintextpro-medium.svg#PFDinTextProMedium') format('svg'),
+       url('/verstka/fonts/pfdintextpro-medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'PFDinTextProLight';
-    src: url('/verstka/fonts/pfdintextpro-light.ttf');
-}
-
-
-@font-face {
-    font-family: 'PFDinTextProMedium';
-    src: url('/verstka/fonts/pfdintextpro-medium.eot');
-}
-
-@font-face {
-    font-family: 'PFDinTextProMedium';
-    src: url('/verstka/fonts/pfdintextpro-medium.ttf');
-}
-
-
-@font-face {
-    font-family: 'PFDinTextProBold';
-    src: url('/verstka/fonts/pfdintextpro-bold.eot');
+  font-family: 'PFDinTextProRegular';
+  src: url('/verstka/fonts/pfdintextpro-regular.eot');
+  src: url('/verstka/fonts/PFDinTextProRegular.woff') format('woff'),
+       url('/verstka/fonts/PFDinTextProRegular.ttf') format('truetype'),
+       url('/verstka/fonts/PFDinTextProRegular.svg#PFDinTextProRegular') format('svg'),
+       url('/verstka/fonts/pfdintextpro-regular.woff2') format('woff2'),
+       url('/verstka/fonts/pfdintextpro-regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'PFDinTextProBold';
-    src: url('/verstka/fonts/pfdintextpro-bold.ttf');
+  font-family: 'PFDinTextProBold';
+  src: url('/verstka/fonts/pfdintextpro-bold.eot');
+  src: url('/verstka/fonts/PFDinTextProBold.woff') format('woff'),
+       url('/verstka/fonts/PFDinTextProBold.ttf') format('truetype'),
+       url('/verstka/fonts/PFDinTextProBold.svg#PFDinTextProBold') format('svg'),
+       url('/verstka/fonts/pfdintextpro-bold.woff2') format('woff2'),
+       url('/verstka/fonts/pfdintextpro-bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'PFDinTextProRegular';
-    src: url('/verstka/fonts/pfdintextpro-regular.eot');
-}
-
-@font-face {
-    font-family: 'PFDinTextProRegular';
-    src: url('/verstka/fonts/pfdintextpro-regular.ttf');
-}
-
-@font-face {
-    font-family: 'PTSerifRegular';
-    src: url('/verstka/fonts/PT_Serif-Caption-Web-Regular.eot');
-}
-
-@font-face {
-    font-family: 'PTSerifRegular';
-    src: url('/verstka/fonts/PT_Serif-Caption-Web-Regular.ttf');
+  font-family: 'PTSerifRegular';
+  src: url('/verstka/fonts/PT_Serif-Caption-Web-Regular.eot');
+  src: url('/verstka/fonts/PT_Serif-Caption-Web-Regular.woff2') format('woff2'),
+       url('/verstka/fonts/PT_Serif-Caption-Web-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/verstka/fonts/PTSerif-Caption.woff') format('woff'),
+       url('/verstka/fonts/PTSerif-Caption.ttf') format('truetype'),
+       url('/verstka/fonts/PTSerif-Caption.svg#PTSerif-Caption') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
