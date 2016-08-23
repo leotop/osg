@@ -16,6 +16,7 @@ $APPLICATION->SetTitle("Контакты");
 	      		<?
 					$altasib_city = getAltasibCity();
 					$phone_include_file = $altasib_city == "Тула" ? "tula_phone.php" : "phone.php";
+					$address_include_file = $altasib_city == "Тула" ? "tula_contacts_address.php" : "contacts_address.php";
 					$city_name = $altasib_city == "Тула" ? "Туле" : "Москве";
 					$coordinates = $altasib_city == "Тула" ? TULA_COORDINATES : MOSCOW_COORDINATES;
 				?>
@@ -41,7 +42,19 @@ $APPLICATION->SetTitle("Контакты");
 <p><a href="mailto:bitrix24@osg.ru" >bitrix24@osg.ru</a></p>
  
 <h2>Офис в <?= $city_name ?></h2>
-<p>г. Москва, ул. 2-я Филевская, д.7/19, корп.6</p>
+<p>
+	<?$APPLICATION->IncludeComponent(
+        "bitrix:main.include", 
+        ".default", 
+        array(
+            "COMPONENT_TEMPLATE" => ".default",
+            "AREA_FILE_SHOW" => "file",
+            "PATH" => "/include/" . $address_include_file,
+            "EDIT_TEMPLATE" => ""
+            ),
+        false
+    );?>
+</p>
  
 <p><?$APPLICATION->IncludeComponent(
 	"bitrix:map.google.view", 
