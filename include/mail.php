@@ -1,1 +1,1 @@
-info@osg.ru
+bitrix24@osg.ru
