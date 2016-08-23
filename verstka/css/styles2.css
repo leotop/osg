@@ -275,9 +275,9 @@ header {
     display: block;
 }
 
-.top_menu ul:first-child li:hover > a {
-    color: #e54e30;
-    border-top:3px solid #e54e30;
+.top_menu ul:first-child li:hover > a, .top_menu li.selected a {
+    color: #e54e30 !important;
+    border-top:3px solid #e54e30 !important;
 }
 
 
