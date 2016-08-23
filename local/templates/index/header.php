@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <meta name="yandex-verification" content="adbc827f965f4943" />
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
         
 
