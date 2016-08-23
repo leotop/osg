@@ -41,7 +41,23 @@
                 <div class="footer_div footer_div_last">
                     <div class="footer_div_title">свяжитесь с нами</div>
                     <div class="footer_list">
-                        <div class="footer_phone">(495) <mark>215-20-29</mark></div>
+                        <div class="footer_phone">
+                        	<?
+								$altasib_city = getAltasibCity();
+								$phone_include_file = $altasib_city == "Тула" ? "tula_phone.php" : "phone.php";
+							?>
+                        	<?$APPLICATION->IncludeComponent(
+					            "bitrix:main.include", 
+					            ".default", 
+					            array(
+					                "COMPONENT_TEMPLATE" => ".default",
+					                "AREA_FILE_SHOW" => "file",
+					                "PATH" => "/include/" . $phone_include_file,
+					                "EDIT_TEMPLATE" => ""
+					                ),
+					            false
+					        );?>
+                        </div>
                         <div><a class="email_link">info@osg.ru</div>
                     </div>
                     <?$APPLICATION->IncludeComponent(
