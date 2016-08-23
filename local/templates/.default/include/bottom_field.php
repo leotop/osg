@@ -58,7 +58,19 @@
 					            false
 					        );?>
                         </div>
-                        <div><a class="email_link">info@osg.ru</div>
+                        <div class="footer_email">
+                        	<?$APPLICATION->IncludeComponent(
+					            "bitrix:main.include", 
+					            ".default", 
+					            array(
+					                "COMPONENT_TEMPLATE" => ".default",
+					                "AREA_FILE_SHOW" => "file",
+					                "PATH" => "/include/mail.php",
+					                "EDIT_TEMPLATE" => ""
+					                ),
+					            false
+					        );?>
+                        </div>
                     </div>
                     <?$APPLICATION->IncludeComponent(
                         "bitrix:search.form", 

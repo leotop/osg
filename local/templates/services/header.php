@@ -8,6 +8,7 @@
                 
         <link rel="stylesheet" type="text/css" href="/verstka/css/styles2.css"/>
         <script src="/verstka/js/jquery.min.js" type="text/javascript"></script>
+        <? $APPLICATION->AddHeadScript('/verstka/js/inner_pages_right_menu_fix.js') ?>
         <script type='text/javascript' src='/verstka/js/script2.js'></script>
 
         <script>
