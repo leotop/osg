@@ -7,6 +7,8 @@
     AddEventHandler("iblock", "OnAfterIBlockElementAdd", "DoIBlockAfterSave");
     AddEventHandler("catalog", "OnPriceAdd", "DoIBlockAfterSave");
     AddEventHandler("catalog", "OnPriceUpdate", "DoIBlockAfterSave");
+	file_exists(dirname(__FILE__) . "/constants.php") ? require_once(dirname(__FILE__) . "/constants.php") : "";
+	
     function DoIBlockAfterSave($arg1, $arg2 = false)
     {
         $ELEMENT_ID = false;
