@@ -3468,3 +3468,11 @@ h2 {
 .footer_email {
 	color: white;
 }
+
+.portfolio_title {
+	font-family: PFDinTextProBold;
+    color: #000000;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
