@@ -8,11 +8,7 @@ $APPLICATION->SetTitle("Контакты");
  
 <h2>Телефоны</h2>
  
-<ul> 	 
-	<li>Телефон: 		 
-	    <ul> 			 
-	      <li>
-	      	<b>
+<p> 	 
 	      		<?
 					$altasib_city = getAltasibCity();
 					$phone_include_file = $altasib_city == "Тула" ? "tula_phone.php" : "phone.php";
@@ -31,17 +27,13 @@ $APPLICATION->SetTitle("Контакты");
 		                ),
 		            false
 		        );?>
-	      	</b>
-	      </li>
-	    </ul>
-	</li>
-</ul>
+</p>
  
 
 <h2>Email</h2>
 <p><a href="mailto:bitrix24@osg.ru" >bitrix24@osg.ru</a></p>
  
-<h2>Офис в <?= $city_name ?></h2>
+<h2>Офис в Москве<?/*= $city_name */?></h2>
 <p>
 	<?$APPLICATION->IncludeComponent(
         "bitrix:main.include", 
@@ -49,13 +41,26 @@ $APPLICATION->SetTitle("Контакты");
         array(
             "COMPONENT_TEMPLATE" => ".default",
             "AREA_FILE_SHOW" => "file",
-            "PATH" => "/include/" . $address_include_file,
+            "PATH" => "/include/contacts_address.php"/* . $address_include_file*/,
             "EDIT_TEMPLATE" => ""
             ),
         false
     );?>
 </p>
- 
+<h2>Офис в Туле<?/*= $city_name */?></h2>
+<p>
+    <?$APPLICATION->IncludeComponent(
+        "bitrix:main.include", 
+        ".default", 
+        array(
+            "COMPONENT_TEMPLATE" => ".default",
+            "AREA_FILE_SHOW" => "file",
+            "PATH" => "/include/tula_contacts_address.php"/* . $address_include_file*/,
+            "EDIT_TEMPLATE" => ""
+            ),
+        false
+    );?>
+</p> 
 <p><?$APPLICATION->IncludeComponent(
 	"bitrix:map.google.view", 
 	".default", 

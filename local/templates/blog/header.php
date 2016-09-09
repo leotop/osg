@@ -3,8 +3,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
 
-        <link rel="icon" href="/osg_fav.png" type="image/png">
-        <link rel="shortcut icon" href="/osg_fav.png" type="image/png">
+        <link rel="icon" href="http://www.osg.ru/osg_fav.png" type="image/png">
+        <link rel="shortcut icon" href="http://www.osg.ru/osg_fav.png" type="image/png">
         
         <link rel="stylesheet" type="text/css" href="/verstka/css/styles2.css"/>
         <script src="/verstka/js/jquery.min.js" type="text/javascript"></script>
