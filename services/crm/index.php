@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("keywords", "Внедрение CRM на платформе Битрикс24");
-$APPLICATION->SetPageProperty("description", "Внедрение CRM на платформе Битрикс24");
-$APPLICATION->SetTitle("Внедрение CRM на платформе Битрикс24");
+$APPLICATION->SetPageProperty("keywords", "Внедрение CRM, Битрикс24, заказ, срм, интеграция с 1с, OSG, Москва");
+$APPLICATION->SetPageProperty("description", "Настройка бизнес процессов с помощью срм Битрикс 24. Система управления продажами и бизнесом от компании «OSG»");
+$APPLICATION->SetTitle("Внедрение CRM на платформе Битрикс24 – стоимость от компании «OSG» в Москве");
 ?> <?$APPLICATION->IncludeFile("/include/create_proj.php",Array(),Array("MODE"=>"html"));?> 
 <p>CRM (Customer Relationship Management) - система управления взаимоотношениями с клиентами; CRM решения сегодня необходимы для формирования клиентоориентированности компании.</p>
  

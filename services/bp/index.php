@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("keywords", "Настройка бизнес-процессов на платформе Битрикс24");
-$APPLICATION->SetPageProperty("description", "Настройка бизнес-процессов на платформе Битрикс24");
-$APPLICATION->SetTitle("Настройка бизнес-процессов");
+$APPLICATION->SetPageProperty("keywords", "бизнес-процессы, функционал Битрикс 24, CRM, OSG, Москва");
+$APPLICATION->SetPageProperty("description", "Компания «OSG» - настройка бизнес-процессов на платформе Битрикс24. Стандартный функционал CRM Битрикс 24");
+$APPLICATION->SetTitle("OSG -  заказать настройку бизнес-процессов и внедрение  Битрикс24 ");
 ?> <?$APPLICATION->IncludeFile("/include/search_opt.php",Array(),Array("MODE"=>"html"));?> 
 <p>Вы когда-нибудь задумывались:
 <ul><li>Сколько стоит отдать счет в оплату?

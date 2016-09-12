@@ -11,7 +11,7 @@ $APPLICATION->SetTitle("Контакты");
 <p> 	 
 	      		<?
 					$altasib_city = getAltasibCity();
-					$phone_include_file = $altasib_city == "Тула" ? "tula_phone.php" : "phone.php";
+					$phone_include_file = $altasib_city == "Тула" ? "tula_contacts_phone.php" : "contacts_phone.php";
 					$address_include_file = $altasib_city == "Тула" ? "tula_contacts_address.php" : "contacts_address.php";
 					$city_name = $altasib_city == "Тула" ? "Туле" : "Москве";
 					$coordinates = $altasib_city == "Тула" ? TULA_COORDINATES : MOSCOW_COORDINATES;

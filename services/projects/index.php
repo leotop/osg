@@ -1,6 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Увеличение конверсии и продаж");
+$APPLICATION->SetPageProperty("keywords", "CRM, срм, задачи, контроль, делегирование,  система управления, Битрикс 24, OSG, Москва");
+$APPLICATION->SetPageProperty("description", "Работа с задачами, контроль и делегирование, настройка платформы Битрикс 24 специалистами компании OSG");
+$APPLICATION->SetTitle("Настройка работы с задачами и проектами – crm система Битрикс 24 - OSG");
 ?> <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Настройка работы с задачами и проектами");

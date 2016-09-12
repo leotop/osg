@@ -1,8 +1,8 @@
 <?
     require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-    $APPLICATION->SetPageProperty("keywords", "osg");
-    $APPLICATION->SetPageProperty("description", "OSG - Профессиональные внедрения CRM-систем и корпоративных порталов на базе Битрикс24");
-    $APPLICATION->SetTitle("OSG - Профессиональные внедрения CRM-систем и корпоративных порталов на базе Битрикс24. ");
+    $APPLICATION->SetPageProperty("keywords", "Битрикс 24, настройка, интеграция, 1С, внедрение, техподдержка, новый, заказ, интернет-магазин, OSG, Москва, цена, стоимость");
+    $APPLICATION->SetPageProperty("description", "Битрикс 24 настройка, поддержка, внедрение от компании «OSG» в Москве. Профессиональная разработка и техподдержка");
+    $APPLICATION->SetTitle("OSG – Битрикс 24 внедрение и интеграция с 1С и интернет-магазинами. Настройка crm Битрикс 24 цена в Москве");
 ?> 
 <div class="index_wrapper1"> 
     <div class="content_block1"> 
