@@ -1233,12 +1233,12 @@ margin-top:43px !important
 background-position: 0 -26px; 
 }
 .forma .h1 {
-    font: 20px 'pfdintextpro-regular', sans-serif;
-    padding: 36px 0 10px;
+    font: 24px 'PF DinText Pro', sans-serif;
+    padding: 36px 0 20px;
 }
 
 .forma .h2 {
-    font: 16px 'pfdintextpro-regular', sans-serif;
+    font: 16px 'PFDinTextProRegular', sans-serif;
     text-align:left; 
     color: #8A8989;
     display: inline-block;
@@ -1261,7 +1261,7 @@ color: #000 }
     border-radius: 5px;
     width: 265px;
     height: 85px;
-    font: 15px/20px 'pfdintextpro-regular', sans-serif; 
+    font: 15px/20px 'PFDinTextProRegular', sans-serif; 
 }
 
 .forma .right {
@@ -1286,7 +1286,7 @@ margin-bottom: 25px;
     padding: 14px 10px;
     border: none;
     color: #fff;
-    font: 15px 'PragmaticaBookRegular', sans-serif;
+    font: 17px 'PFDinTextProRegular', sans-serif;
     border-radius: 5px;
     cursor: pointer;
     float:right;   
@@ -1299,7 +1299,7 @@ margin-bottom: 25px;
     padding: 14px 10px;
     border: none;
     color: #fff;
-    font: 15px 'PragmaticaBookRegular', sans-serif;
+    font: 17px 'PFDinTextProRegular', sans-serif;
     border-radius: 5px;
     margin: 0 0 20px;
     cursor: pointer;
@@ -1351,7 +1351,7 @@ margin-bottom: 25px;
     cursor:pointer;
     border-radius: 2px;
     font-size: 18px;
-    font-family: Myriad Pro;
+    font-family: PFDinTextProRegular;
     color: #fff;
     align-content: center;
     text-align: center;
