@@ -2036,7 +2036,7 @@ h1 {
     font-family: PFDinTextProBold;
     color:#e44e30;
     font-size: 24px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;  */
 }
 
 
@@ -2428,7 +2428,12 @@ h2 {
     max-width:490px;
     max-height:360px;
     display: block;
-    margin:auto
+    margin:auto;
+    -webkit-filter: brightness(96%); 
+}
+
+.portf_div_inner2 img:hover {
+    -webkit-filter: brightness(100%);
 }
 
 .content_portf2 > .portf_div:nth-child(odd) > div:last-child {

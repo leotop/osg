@@ -12,73 +12,73 @@
         <div class="footer_content">
             <div class="footer_div">                    
             <?$APPLICATION->IncludeComponent("bitrix:menu", "menu_solutions_footer", Array(
-	"ROOT_MENU_TYPE" => "bottom_solutions",	// Тип меню для первого уровня
-		"MENU_CACHE_TYPE" => "N",	// Тип кеширования
-		"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
-		"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
-		"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
-		"MAX_LEVEL" => "1",	// Уровень вложенности меню
-		"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
-		"USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
-		"DELAY" => "N",	// Откладывать выполнение шаблона меню
-		"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
-		"COMPONENT_TEMPLATE" => "menu_services_footer"
-	),
-	false
+    "ROOT_MENU_TYPE" => "bottom_solutions",    // Тип меню для первого уровня
+        "MENU_CACHE_TYPE" => "N",    // Тип кеширования
+        "MENU_CACHE_TIME" => "3600",    // Время кеширования (сек.)
+        "MENU_CACHE_USE_GROUPS" => "Y",    // Учитывать права доступа
+        "MENU_CACHE_GET_VARS" => "",    // Значимые переменные запроса
+        "MAX_LEVEL" => "1",    // Уровень вложенности меню
+        "CHILD_MENU_TYPE" => "left",    // Тип меню для остальных уровней
+        "USE_EXT" => "N",    // Подключать файлы с именами вида .тип_меню.menu_ext.php
+        "DELAY" => "N",    // Откладывать выполнение шаблона меню
+        "ALLOW_MULTI_SELECT" => "N",    // Разрешить несколько активных пунктов одновременно
+        "COMPONENT_TEMPLATE" => "menu_services_footer"
+    ),
+    false
 );?>
             </div>
                 <?$APPLICATION->IncludeComponent(
-	                "bitrix:menu", 
-	                "menu_services_footer", 
-	                array(
-		                "ROOT_MENU_TYPE" => "bottom_services",
-		                "MENU_CACHE_TYPE" => "N",
-		                "MENU_CACHE_TIME" => "3600",
-		                "MENU_CACHE_USE_GROUPS" => "Y",
-		                "MENU_CACHE_GET_VARS" => array(
-		                ),
-		                "MAX_LEVEL" => "1",
-		                "CHILD_MENU_TYPE" => "left",
-		                "USE_EXT" => "N",
-		                "DELAY" => "N",
-		                "ALLOW_MULTI_SELECT" => "N",
-		                "COMPONENT_TEMPLATE" => "menu_services_footer"
-	                ),
-	                false
+                    "bitrix:menu", 
+                    "menu_services_footer", 
+                    array(
+                        "ROOT_MENU_TYPE" => "bottom_services",
+                        "MENU_CACHE_TYPE" => "N",
+                        "MENU_CACHE_TIME" => "3600",
+                        "MENU_CACHE_USE_GROUPS" => "Y",
+                        "MENU_CACHE_GET_VARS" => array(
+                        ),
+                        "MAX_LEVEL" => "1",
+                        "CHILD_MENU_TYPE" => "left",
+                        "USE_EXT" => "N",
+                        "DELAY" => "N",
+                        "ALLOW_MULTI_SELECT" => "N",
+                        "COMPONENT_TEMPLATE" => "menu_services_footer"
+                    ),
+                    false
                 );?>
 
                 <div class="footer_div footer_div_last">
                     <div class="footer_div_title">свяжитесь с нами</div>
                     <div class="footer_list">
                         <div class="footer_phone">
-                        	<?
-								$altasib_city = getAltasibCity();
-								$phone_include_file = $altasib_city == "Тула" ? "tula_phone.php" : "phone.php";
-							?>
-                        	<?$APPLICATION->IncludeComponent(
-					            "bitrix:main.include", 
-					            ".default", 
-					            array(
-					                "COMPONENT_TEMPLATE" => ".default",
-					                "AREA_FILE_SHOW" => "file",
-					                "PATH" => "/include/" . $phone_include_file,
-					                "EDIT_TEMPLATE" => ""
-					                ),
-					            false
-					        );?>
+                            <?
+                                $altasib_city = getAltasibCity();
+                                $phone_include_file = $altasib_city == "Тула" ? "tula_phone.php" : "phone.php";
+                            ?>
+                            <?$APPLICATION->IncludeComponent(
+                                "bitrix:main.include", 
+                                ".default", 
+                                array(
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "AREA_FILE_SHOW" => "file",
+                                    "PATH" => "/include/" . $phone_include_file,
+                                    "EDIT_TEMPLATE" => ""
+                                    ),
+                                false
+                            );?>
                         </div>
                         <div class="footer_email">
-                        	<?$APPLICATION->IncludeComponent(
-					            "bitrix:main.include", 
-					            ".default", 
-					            array(
-					                "COMPONENT_TEMPLATE" => ".default",
-					                "AREA_FILE_SHOW" => "file",
-					                "PATH" => "/include/mail.php",
-					                "EDIT_TEMPLATE" => ""
-					                ),
-					            false
-					        );?>
+                            <?$APPLICATION->IncludeComponent(
+                                "bitrix:main.include", 
+                                ".default", 
+                                array(
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "AREA_FILE_SHOW" => "file",
+                                    "PATH" => "/include/mail.php",
+                                    "EDIT_TEMPLATE" => ""
+                                    ),
+                                false
+                            );?>
                         </div>
                     </div>
                     <?$APPLICATION->IncludeComponent(

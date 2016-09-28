@@ -6,42 +6,32 @@ $APPLICATION->SetTitle("Контакты");
  
 <p>Вы можете обратиться к нам по телефону, по электронной почте или договориться о встрече в нашем офисе. Будем рады помочь вам и ответить на все ваши вопросы. </p>
  
-<h2>Телефоны</h2>
- 
-<ul> 	 
-	<li>Телефон: 		 
-	    <ul> 			 
-	      <li>
-	      	<b>
-	      		<?
-					$altasib_city = getAltasibCity();
-					$phone_include_file = $altasib_city == "Тула" ? "tula_phone.php" : "phone.php";
-					$address_include_file = $altasib_city == "Тула" ? "tula_contacts_address.php" : "contacts_address.php";
-					$city_name = $altasib_city == "Тула" ? "Туле" : "Москве";
-					$coordinates = $altasib_city == "Тула" ? TULA_COORDINATES : MOSCOW_COORDINATES;
-				?>
-		        <?$APPLICATION->IncludeComponent(
-		            "bitrix:main.include", 
-		            ".default", 
-		            array(
-		                "COMPONENT_TEMPLATE" => ".default",
-		                "AREA_FILE_SHOW" => "file",
-		                "PATH" => "/include/" . $phone_include_file,
-		                "EDIT_TEMPLATE" => ""
-		                ),
-		            false
-		        );?>
-	      	</b>
-	      </li>
-	    </ul>
-	</li>
-</ul>
+<?
+	$altasib_city = getAltasibCity();
+	$phone_include_file = $altasib_city == "Тула" ? "tula_contacts_phone.php" : "contacts_phone.php";
+	$address_include_file = $altasib_city == "Тула" ? "tula_contacts_address.php" : "contacts_address.php";
+	$city_name = $altasib_city == "Тула" ? "Туле" : "Москве";
+	$coordinates = $altasib_city == "Тула" ? TULA_COORDINATES : MOSCOW_COORDINATES;
+?>
+<?/*?>
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include", 
+	".default", 
+	array(
+		"COMPONENT_TEMPLATE" => ".default",
+		"AREA_FILE_SHOW" => "file",
+		"PATH" => "/include/" . $phone_include_file,
+		"EDIT_TEMPLATE" => ""
+		),
+	false
+);?>
+<?*/?>
  
 
 <h2>Email</h2>
 <p><a href="mailto:bitrix24@osg.ru" >bitrix24@osg.ru</a></p>
  
-<h2>Офис в <?= $city_name ?></h2>
+<h2>Офис в Москве<?/*= $city_name */?></h2>
 <p>
 	<?$APPLICATION->IncludeComponent(
         "bitrix:main.include", 
@@ -49,13 +39,54 @@ $APPLICATION->SetTitle("Контакты");
         array(
             "COMPONENT_TEMPLATE" => ".default",
             "AREA_FILE_SHOW" => "file",
-            "PATH" => "/include/" . $address_include_file,
+            "PATH" => "/include/contacts_address.php"/* . $address_include_file*/,
             "EDIT_TEMPLATE" => ""
             ),
         false
     );?>
 </p>
- 
+<h2>Телефон</h2> 
+<p>      
+    <?$APPLICATION->IncludeComponent(
+        "bitrix:main.include", 
+        ".default", 
+        array(
+            "COMPONENT_TEMPLATE" => ".default",
+            "AREA_FILE_SHOW" => "file",
+            "PATH" => "/include/contacts_phone.php",
+            "EDIT_TEMPLATE" => ""
+            ),
+        false
+    );?>
+</p>
+<h2>Офис в Туле<?/*= $city_name */?></h2>
+<p>
+    <?$APPLICATION->IncludeComponent(
+        "bitrix:main.include", 
+        ".default", 
+        array(
+            "COMPONENT_TEMPLATE" => ".default",
+            "AREA_FILE_SHOW" => "file",
+            "PATH" => "/include/tula_contacts_address.php"/* . $address_include_file*/,
+            "EDIT_TEMPLATE" => ""
+            ),
+        false
+    );?>
+</p>
+<h2>Телефон</h2> 
+<p>      
+    <?$APPLICATION->IncludeComponent(
+        "bitrix:main.include", 
+        ".default", 
+        array(
+            "COMPONENT_TEMPLATE" => ".default",
+            "AREA_FILE_SHOW" => "file",
+            "PATH" => "/include/tula_contacts_phone.php",
+            "EDIT_TEMPLATE" => ""
+            ),
+        false
+    );?>
+</p> 
 <p><?$APPLICATION->IncludeComponent(
 	"bitrix:map.google.view", 
 	".default", 
