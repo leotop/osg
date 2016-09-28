@@ -103,4 +103,5 @@
         <a class="portf" href="/portfolio/" target="_blank">портфолио</a>
     </div>
           </div>
+</div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

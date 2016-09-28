@@ -1,5 +1,9 @@
-<!DOCTYPE HTML>
-<html>
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?              
+    IncludeTemplateLangFile(__FILE__);
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="<?=LANGUAGE_ID?>">
     <head>
         <meta name="yandex-verification" content="adbc827f965f4943" />
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
@@ -11,7 +15,9 @@
         <link rel="stylesheet" type="text/css" href="/verstka/css/styles2.css"/>
         <script src="/verstka/js/jquery.min.js" type="text/javascript"></script>
         <script type='text/javascript' src='/verstka/js/script2.js'></script>
-
+        
+        
+        
         <script>
             brands_width13=0; 
             

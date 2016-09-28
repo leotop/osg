@@ -1111,7 +1111,7 @@ margin-top:43px !important
 
 .index_wrapper3_content {
     width:980px;
-    margin:83px auto 45px;
+    margin:83px auto 40px;
     overflow: hidden;
 }
 
@@ -1201,12 +1201,160 @@ margin-top:43px !important
     color:#b2b2b2 !important;
 }
 
+/*********/
+
+.forma {
+    background: #fff;
+    width: 640px;
+    height: 600px;
+    position: fixed;
+    top: 24%;
+    left: 31%;
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.forma .close {
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    z-index: 100;
+    top: 30px;
+    right: 40px;
+    background: url(/verstka/images/close.png) no-repeat 0 0; 
+}
+.forma .close:hover {
+background-position: 0 -26px; 
+}
+.forma .h1 {
+    font: 20px 'pfdintextpro-regular', sans-serif;
+    padding: 36px 0 10px;
+}
+
+.forma .h2 {
+    font: 16px 'pfdintextpro-regular', sans-serif;
+    text-align:left; 
+    color: #8A8989;
+    display: inline-block;
+    margin-top: 13px;
+}
+.forma span {
+color: #000 }
+
+.forma form {
+    padding-top: 25px; 
+    border-top: 1px solid #dadada;
+}
+.forma label {
+    margin: 0 0 20px;
+}
+.forma label .input, .forma label .textarea {
+    resize: none;
+    padding: 15px 18px;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+    width: 265px;
+    height: 85px;
+    font: 15px/20px 'pfdintextpro-regular', sans-serif; 
+}
+
+.forma .right {
+    margin-right: 25px;
+}
+   
+.forma label .textarea {
+height: 210px; 
+width: 600px;
+margin-bottom: 30px;
+}
+
+.forma label .input {
+height: 15px; 
+margin-bottom: 25px;
+}
+
+.forma .button {
+    background: #ef3e21;
+    width: 120px;
+    height: auto;
+    padding: 14px 10px;
+    border: none;
+    color: #fff;
+    font: 15px 'PragmaticaBookRegular', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    float:right;   
+}
+
+.forma .button2 {
+    background: #000;
+    width: 120px;
+    height: auto;
+    padding: 14px 10px;
+    border: none;
+    color: #fff;
+    font: 15px 'PragmaticaBookRegular', sans-serif;
+    border-radius: 5px;
+    margin: 0 0 20px;
+    cursor: pointer;
+    float:right;
+    margin-right: 30px;   
+}
 
 .footer_wrapper {
     min-height:340px;
     position:relative;
     overflow: hidden;
-    margin-top:60px
+    margin-top: 30px;
+}
+
+.footer_consultation_background{
+    padding: 45.5px;
+    background-color: #e54e30;
+    overflow: hidden;
+}
+
+.footer_consultation{
+   overflow: visible;
+   width: 980px;
+   margin: 0 auto;
+}
+
+
+.footer_consultation_text2{
+    color: white;
+    font-size:24px;
+    font-family: PF DinText Pro;
+    text-align: left;
+    display:inline-block;
+}
+
+.footer_consultation_text1{
+    color: white;
+    font-size:24px;
+    text-align:right;
+    display:inline-block;
+    font-family: Myriad Pro;
+}
+
+.footer_consultation_button{
+    display:inline-block;
+    width: 240px;
+    border: 2px solid #fff;
+    margin-left: 108px;
+    cursor:pointer;
+    border-radius: 2px;
+    font-size: 18px;
+    font-family: Myriad Pro;
+    color: #fff;
+    align-content: center;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
 }
 
 .footer_content_wrapper {
@@ -1622,6 +1770,10 @@ p {
     color:#909090;
     font-size: 14px;
     line-height: 24px; 
+}
+
+.popup {
+display: none; 
 }
 
 .inner1_left_text_div div:last-child mark {
@@ -3476,3 +3628,30 @@ h2 {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+.blur {
+    filter: blur(4px);
+}
+
+.good{
+    background: #f5f5f5; 
+    color:#808080
+}
+
+.nogood{
+    background: #ffeeee; color:#f2393a
+}
+
+.forma input:focus,textarea:focus, .nogood input, .nogood textarea {
+  border-color: #ef3421 !important;
+  border-width: 2px !important;
+  color: #ef3421 !important;
+}
+
+.forma input:focus ::-webkit-input-placeholder,textarea:focus ::-webkit-input-placeholder, .nogood ::-webkit-input-placeholder {
+  color: #ff0000;
+}
+
+.forma input:focus ::-moz-placeholder,textarea:focus ::-moz-placeholder,.nogood ::-moz-placeholder          { color: #ff0000;}/* Firefox 19+ */
+.forma input:focus :-moz-placeholder,textarea:focus :-moz-placeholder,.nogood :-moz-placeholder           { color: #ff0000;}/* Firefox 18- */
+.forma input:focus :-ms-input-placeholder,textarea:focus :-ms-input-placeholder,.nogood :-ms-input-placeholder      { color: #ff0000;}

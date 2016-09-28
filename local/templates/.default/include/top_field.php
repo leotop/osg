@@ -1,3 +1,6 @@
+<script type='text/javascript' src='/verstka/js/index.js'></script>
+<script type='text/javascript' src='/verstka/js/maskedinput.min.js'></script>
+
 <div class="site_titles">
     <div class="logo"><a href="/"><img src="/verstka/images/logo.png" /></a></div>
     <div class="site_titles_wrapper">
@@ -15,14 +18,14 @@
             false
         );?>
         </div>
-    </div>
-
+    </div> 
     <div class="site_titles_right">
         <div class="top_phone">
 		<?
 			$altasib_city = getAltasibCity();
 			$phone_include_file = $altasib_city == "Тула" ? "tula_phone.php" : "phone.php";
-		?>
+        ?>
+        
         <?$APPLICATION->IncludeComponent(
             "bitrix:main.include", 
             ".default", 

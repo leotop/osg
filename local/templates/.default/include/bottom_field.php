@@ -1,4 +1,13 @@
  <div class="footer_wrapper">
+    <div class="footer_consultation_background">
+    <div class="footer_consultation">
+        <div class="footer_consultation_text1"><?=GetMessage("FOOTER_TEXT1")?></div>
+        <div class="footer_consultation_text2"><?=GetMessage("FOOTER_TEXT2")?></div>
+        <div class="footer_consultation_button" onclick="show_popup()">
+            <?=GetMessage("ORDER_CONSULTATION")?>
+        </div>        
+    </div>
+    </div>
     <div class="footer_content_wrapper">
         <div class="footer_content">
             <div class="footer_div">                    
@@ -125,10 +134,26 @@
             </script> 
 
             <!-- /Yandex.Metrika counter --> 
-            <div></div>
-
         </footer>
 
     </div>
 
+</div>
+<div class="forma popup" id="p1">
+    <div class="close"></div>
+    <div class="h1" id="js_project_form_header">
+        <?=GetMessage("ORDER_FORM")?>
+    </div>    
+    <form method="post" id="form">
+        <label><input autocomplete="off" type="text" class="input req right" name="NAME" placeholder="<?=GetMessage("YOUR_NAME")?>" value=""/></label>
+        <label><input autocomplete="off" type="text" class="input req" name="COMPANY" placeholder="<?=GetMessage("COMPANY")?>" value=""/></label>
+        <label><input autocomplete="off" type="text" class="input req right" name="EMAIL" placeholder="<?=GetMessage("EMAIL")?>" value=""/></label>
+        <label><input autocomplete="off" type="text" class="input req" name="PHONE" placeholder="<?=GetMessage("PHONE")?>" value=""/></label>
+        <label><textarea class="textarea req" name="TEXT" placeholder="<?=GetMessage("TEXT")?>"></textarea></label>       
+        <div class="h2">
+            <?=GetMessage("ORDER_TEXT")?>                        
+        </div>
+        <button type="submit" class="button"><?=GetMessage("SEND_FORM")?></button>  
+        <button type="reset" class="button2"><?=GetMessage("CLEAR")?></button> 
+    </form>
 </div>
