@@ -18,7 +18,7 @@
 
     $arLoadProductArray = Array(
         "IBLOCK_SECTION_ID" => false,        
-        "IBLOCK_ID"      => 21,
+        "IBLOCK_ID"      => FEEDBACK_BLOCK_ID,
         "PROPERTY_VALUES"=> $PROP,
         "NAME"           => $name,
         "ACTIVE"         => "Y",          

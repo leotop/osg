@@ -1208,11 +1208,13 @@ margin-top:43px !important
     width: 640px;
     height: 600px;
     position: fixed;
-    top: 24%;
-    left: 31%;
+    top: 50%;
+    left: 50%;
     display: block;
     padding-left: 40px;
     padding-right: 40px;
+    margin-left: -320px;
+    margin-top: -300px;
 }
 
 
