@@ -1,6 +1,6 @@
 <?
 $sSectionName = "Настройка работы с задачами и проектами";
-$arDirProperties = array(
+$arDirProperties = Array(
    "description" => "Настройка работы с задачами и проектами",
    "keywords" => "Настройка работы с задачами и проектами"
 );
