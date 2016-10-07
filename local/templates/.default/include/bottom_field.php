@@ -3,7 +3,7 @@
     <div class="footer_consultation">
         <div class="footer_consultation_text1"><?=GetMessage("FOOTER_TEXT1")?></div>
         <div class="footer_consultation_text2"><?=GetMessage("FOOTER_TEXT2")?></div>
-        <div class="footer_consultation_button" onclick="show_popup()">
+        <div class="footer_consultation_button" onclick="show_popup(); yaCounter8362138.reachGoal('ORDER1'); return true;">
             <?=GetMessage("ORDER_CONSULTATION")?>
         </div>        
     </div>
@@ -153,7 +153,7 @@
         <div class="h2">
             <?=GetMessage("ORDER_TEXT")?>                        
         </div>
-        <button type="submit" class="button"><?=GetMessage("SEND_FORM")?></button>  
+        <button type="submit" class="button" onclick="yaCounter8362138.reachGoal('ORDER11'); return true;"><?=GetMessage("SEND_FORM")?></button>  
         <button type="reset" class="button2"><?=GetMessage("CLEAR")?></button> 
     </form>
 </div>

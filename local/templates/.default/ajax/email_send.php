@@ -1,12 +1,11 @@
 <?require_once($_SERVER['DOCUMENT_ROOT']."/bitrix/modules/main/include/prolog_before.php");?>
 <?
-    //передаваемые данные
+    //РїРµСЂРµРґР°РІР°РµРјС‹Рµ РґР°РЅРЅС‹Рµ
     $name = iconv('UTF-8','CP1251',$_POST["NAME"]);
     $phone = $_POST["PHONE"];
     $company = iconv('UTF-8','CP1251',$_POST["COMPANY"]) ;
     $email = $_POST["EMAIL"];
     $text = iconv('UTF-8','CP1251',$_POST["TEXT"]); 
-    //$iblock_id = 21;
 
                         
     $el = new CIBlockElement;
@@ -27,7 +26,7 @@
     
     $crm_data = array();
     $crm_data = array(
-                "TITLE"         => iconv('CP1251', 'UTF-8', "Заявка с сайта OSG"),
+                "TITLE"         => iconv('CP1251', 'UTF-8', "Р—Р°СЏРІРєР° СЃ СЃР°Р№С‚Р° OSG"),
                 "NAME"          => $_POST["NAME"],
                 "COMPANY_TITLE" => $_POST["COMPANY"],
                 "EMAIL_WORK"    => $email,
@@ -43,16 +42,30 @@
         echo "ERROR";    
     }    
     
-    createCRMLead($crm_data);
+    //createCRMLead($crm_data);
     
-    //в зависимости от инфоблока выбираем нужный тип почтового события
+    // РѕС‚РїСЂР°РІР»СЏРµРј РїРёСЃРјРѕ Рѕ Р·Р°РєР°Р·Рµ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё
+    $theme = "Р—Р°СЏРІРєР° СЃ СЃР°Р№С‚Р° OSG";
+    $mail_text ='<b>РРјСЏ:</b>'.iconv('CP1251', 'UTF-8', $name).'<br>
+    <b>РќР°Р·РІР°РЅРёРµ РєРѕРјРїР°РЅРёСЏ:</b>'.iconv('CP1251', 'UTF-8', $company).'<br>
+    <b>РўРµР»РµС„РѕРЅ РґР»СЏ СЃРІСЏР·Рё:</b> '.$phone.'<br>
+    <b>Email:</b> '.$email.'<br>
+    <b>РўРµРєСЃС‚:</b> '.iconv('CP1251', 'UTF-8', $text).'<br>'; 
+
+    $to1 = 'bitrix24@osg.ru';  
+    $to2 = 'me@webgk.ru';
+    $headers  = "Content-type: text/html; charset=utf-8 \r\n"; 
+    $headers .= "From: consultation@osg.ru\r\n"; 
+    mail($to1,$theme,$mail_text, $headers);
+    mail($to2,$theme,$mail_text, "From: consultation@osg.ru\r\n"."Content-type: text/html; Charset=utf-8 \r\n");
+    
+    //РІ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РѕС‚ РёРЅС„РѕР±Р»РѕРєР° РІС‹Р±РёСЂР°РµРј РЅСѓР¶РЅС‹Р№ С‚РёРї РїРѕС‡С‚РѕРІРѕРіРѕ СЃРѕР±С‹С‚РёСЏ
 
     $event_type = "FORM_SUBMIT";
         
-    //добавляем поля для письма
+    //РґРѕР±Р°РІР»СЏРµРј РїРѕР»СЏ РґР»СЏ РїРёСЃСЊРјР°
     $PROP["NAME"] = $name;   
     $PROP["TEXT"] = $text;    
     $arrSITE =  's1';
     CEvent::Send($event_type, $arrSITE, $PROP,'N');
-
 ?>
