@@ -1777,6 +1777,7 @@ p {
 
 .popup {
 display: none; 
+z-index: 500;
 }
 
 .inner1_left_text_div div:last-child mark {
