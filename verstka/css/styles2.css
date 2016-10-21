@@ -1,4 +1,37 @@
 @font-face {
+  font-family: 'PTSerifBoldItalic';
+  src: url('/verstka/fonts/PTSerifBoldItalic.eot');
+  src: url('/verstka/fonts/PTSerif-BoldItalic.woff') format('woff'),
+       url('/verstka/fonts/PTSerif-BoldItalic.ttf') format('truetype'),
+       url('/verstka/fonts/PTSerif-BoldItalic.svg#PTSerif-BoldItalic') format('svg'),
+       url('/verstka/fonts/PTSerifBoldItalic.woff2') format('woff2'),
+       url('/verstka/fonts/PTSerifBoldItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSerifItalic';  
+  src: url('/verstka/fonts/PTSerifItalic.eot');
+  src: url('/verstka/fonts/PTSerif-Italic.woff') format('woff'),
+       url('/verstka/fonts/PTSerif-Italic.ttf') format('truetype'),
+       url('/verstka/fonts/PTSerif-Italic.svg#PTSerif-Italic') format('svg'),  
+       url('/verstka/fonts/PTSerifItalic.woff2') format('woff2'),
+       url('/verstka/fonts/PTSerifItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSerifRegular';
+  src: url('/verstka/fonts/PTSerifRegular.eot');
+  src: url('/verstka/fonts/PTSerif-Regular.woff') format('woff'),
+       url('/verstka/fonts/PTSerif-Regular.ttf') format('truetype'),
+       url('/verstka/fonts/PTSerif-Regular.svg#PTSerif-Regular') format('svg'),
+       url('/verstka/fonts/PTSerifRegular.woff2') format('woff2'),
+       url('/verstka/fonts/PTSerifRegular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'PFHandbookProRegular';
   src: url('/verstka/fonts/PFHandbookPro-Regular.eot');
   src: url('/verstka/fonts/PFHandbookPro-Regular.woff2') format('woff2'),
@@ -3664,3 +3697,24 @@ h2 {
 .forma input:focus ::-moz-placeholder,textarea:focus ::-moz-placeholder,.nogood ::-moz-placeholder          { color: #ff0000;}/* Firefox 19+ */
 .forma input:focus :-moz-placeholder,textarea:focus :-moz-placeholder,.nogood :-moz-placeholder           { color: #ff0000;}/* Firefox 18- */
 .forma input:focus :-ms-input-placeholder,textarea:focus :-ms-input-placeholder,.nogood :-ms-input-placeholder      { color: #ff0000;}
+
+.text {
+    color: #000000;
+}
+.text hr{
+    background: #909090;
+    height: 1px;
+}
+.text mark{
+    color: #909090;
+    font-family: PTSerifItalic;
+    font-size: 22px;
+}
+.text h1{
+    color: #000000;    
+    font-family: PFDinTextProMedium;
+}
+.text > span {
+    font-family: PTSerifItalic;
+    font-size: 22px;
+}
