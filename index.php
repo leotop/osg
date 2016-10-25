@@ -1,5 +1,5 @@
 <?
-    require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+     require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
     $APPLICATION->SetPageProperty("keywords", "Битрикс 24, настройка, интеграция, 1С, внедрение, техподдержка, новый, заказ, интернет-магазин, OSG, Москва, цена, стоимость");
     $APPLICATION->SetPageProperty("description", "Битрикс 24 настройка, поддержка, внедрение от компании «OSG» в Москве. Профессиональная разработка и техподдержка");
     $APPLICATION->SetTitle("OSG – Битрикс 24 внедрение и интеграция с 1С и интернет-магазинами. Настройка crm Битрикс 24 цена в Москве");
@@ -378,17 +378,17 @@ $portfolioFilter = array("!PROPERTY_INDEX_IMAGE" => false);
         <img src="/verstka/images/img3.png"  /> 
         <div class="index_wrapper3_bottom"> самое выгодное <mark>сотрудничество для вас</mark> </div>
         <?$APPLICATION->IncludeComponent(
-	        "bitrix:main.include", 
-	        ".default", 
-	        array(
-		        "AREA_FILE_SHOW" => "file",
-		        "AREA_FILE_SUFFIX" => "inc",
-		        "EDIT_TEMPLATE" => "",
-		        "PATH" => "",
-		        "COMPONENT_TEMPLATE" => ".default"
-	        ),
-	        false
-        );?>
+	"bitrix:main.include", 
+	".default", 
+	array(
+		"AREA_FILE_SHOW" => "file",
+		"AREA_FILE_SUFFIX" => "inc",
+		"EDIT_TEMPLATE" => "",
+		"PATH" => "/include/cooperation.php",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
     </div>
  </div>
  <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
