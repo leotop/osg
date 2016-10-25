@@ -377,6 +377,18 @@ $portfolioFilter = array("!PROPERTY_INDEX_IMAGE" => false);
         </div>
         <img src="/verstka/images/img3.png"  /> 
         <div class="index_wrapper3_bottom"> самое выгодное <mark>сотрудничество для вас</mark> </div>
+        <?$APPLICATION->IncludeComponent(
+	        "bitrix:main.include", 
+	        ".default", 
+	        array(
+		        "AREA_FILE_SHOW" => "file",
+		        "AREA_FILE_SUFFIX" => "inc",
+		        "EDIT_TEMPLATE" => "",
+		        "PATH" => "",
+		        "COMPONENT_TEMPLATE" => ".default"
+	        ),
+	        false
+        );?>
     </div>
  </div>
  <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
