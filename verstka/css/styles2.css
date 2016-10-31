@@ -3699,22 +3699,80 @@ h2 {
 .forma input:focus :-ms-input-placeholder,textarea:focus :-ms-input-placeholder,.nogood :-ms-input-placeholder      { color: #ff0000;}
 
 .text {
-    color: #000000;
+    color: #c1c1c1;
 }
 .text hr{
-    background: #909090;
+    border: 0px;
+    background: #c1c1c1;
     height: 1px;
 }
 .text mark{
-    color: #909090;
+    color: #c1c1c1;
     font-family: PTSerifItalic;
     font-size: 22px;
 }
 .text h1{
     color: #000000;    
     font-family: PFDinTextProMedium;
+    font-size: 27px;
 }
 .text > span {
     font-family: PTSerifItalic;
     font-size: 22px;
+    color: #000000;
+}
+.text a{
+    text-decoration:underline
+}
+.text img{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.image_card_product{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.image_card_product img{
+    margin-bottom: 20px;
+    width: 330px;
+}
+.text_integration{   
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.grey_cube{
+    height: 140px;
+    width: 220px;
+    background: #f1f0ef;
+    font-size: 14px;
+}
+.grey_cube mark{
+    font-size: 28px;
+}
+.grey_cube mark a{
+    position: relative;
+    bottom: 12px;
+    font-size: 16px;
+}
+.grey_cube div{
+    position: relative;
+    top: 33%;
+    left: 50%;
+    text-align: center;
+    margin-left: -110px;
+    width: 220px;
+}
+figcaption{
+    font-size: 13px;
+}
+.backgraund_brown{
+    background-color: #312724; 
+    height: 540px;
+    width: 100%;
 }

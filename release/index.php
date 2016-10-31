@@ -58,10 +58,8 @@ $APPLICATION->SetTitle("Пресс-релизы");
 			1 => "",
 		),
 		"DETAIL_PROPERTY_CODE" => array(
-			0 => "DESCRIPTION",
-			1 => "KEYWORDS",
-			2 => "TITLE",
-			3 => "",
+			0 => "",
+			1 => "",
 		),
 		"DETAIL_DISPLAY_TOP_PAGER" => "N",
 		"DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
