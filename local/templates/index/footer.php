@@ -4,11 +4,6 @@
 ?>
 <?include($_SERVER['DOCUMENT_ROOT'].'/local/templates/.default/include/bottom_field.php')?>
 </div>
-<!-- BEGIN JIVOSITE CODE {literal} --> 
-<script type='text/javascript'> 
-(function(){ var widget_id = 'rjoOMqufWR';var d=document;var w=window;function l(){ 
-var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
-<!-- {/literal} END JIVOSITE CODE --> 
 <!-- Google Analytics Code -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -20,5 +15,11 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
   ga('send', 'pageview');
 </script>
 <!-- End Google Analytics Code --> 
+<script data-skip-moving="true">
+(function(w,d,u,b){
+s=d.createElement('script');r=1*new Date();s.async=1;s.src=u+'?'+r;
+h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+})(window,document,'http://corp.webgk.net/upload/crm/8d3/8d3b20a92067fc2c3476f8b1159dc76d.js');
+</script>
 </body>
 </html>
