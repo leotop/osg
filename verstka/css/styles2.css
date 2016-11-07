@@ -3732,13 +3732,17 @@ h2 {
     font-family: PFDinTextProMedium;
     font-size: 27px;
 }
-.text > span {
+.text span {
     font-family: PTSerifItalic;
     font-size: 22px;
     color: #000000;
 }
 .text a{
     text-decoration:underline
+}
+.black_text{
+    text-decoration: none !important; 
+    color: #000;
 }
 .text img{
     position: relative;
@@ -3754,7 +3758,7 @@ h2 {
 }
 .image_card_product img{
     margin-bottom: 20px;
-    width: 330px;
+    width: 470px;
 }
 .text_integration{   
     justify-content: space-between;
@@ -3764,26 +3768,31 @@ h2 {
 }
 .grey_cube{
     display: flex;
-    height: 140px;
-    width: 220px;
+    height: 180px;
+    width: 310px;
     background: #f1f0ef;
     font-size: 14px;
-    text-align: center;
-    vertical-align: middle;
-    align-content: center;
     align-items: center;
+    text-align: center;
 }
 .grey_cube mark{
     font-size: 28px;
+    font-family: PFDinTextProBold;
 }
 .grey_cube mark a{
     position: relative;
     bottom: 12px;
     font-size: 16px;
 }
-.grey_cube div{
-    text-align: center;
-    width: 220px;
+.grey_cube div{    
+    width: 100%;
+}
+.inner_grey_cube{    
+    align-items: stretch !important;
+}
+.inner_grey_cube div{
+    position: relative;    
+    top: 40%;
 }
 figcaption{
     font-size: 13px;

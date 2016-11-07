@@ -7,7 +7,7 @@
 		<div class="news-date"><?=$arResult["DISPLAY_ACTIVE_FROM"]?></div>
 	<?endif;?>
 	<?if($arParams["DISPLAY_NAME"]!="N" && $arResult["NAME"]):?>
-		<h3><?=$arResult["NAME"]?></h3>
+		<h1><?=$arResult["NAME"]?></h1>
 	<?endif;?>
 	<div class="news-detail">
 	<?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arResult["FIELDS"]["PREVIEW_TEXT"]):?>
