@@ -3763,10 +3763,15 @@ h2 {
     display: flex;
 }
 .grey_cube{
+    display: flex;
     height: 140px;
     width: 220px;
     background: #f1f0ef;
     font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
 }
 .grey_cube mark{
     font-size: 28px;
@@ -3777,11 +3782,7 @@ h2 {
     font-size: 16px;
 }
 .grey_cube div{
-    position: relative;
-    top: 33%;
-    left: 50%;
     text-align: center;
-    margin-left: -110px;
     width: 220px;
 }
 figcaption{
