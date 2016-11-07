@@ -15,6 +15,24 @@ h4 { font-size:140%; }
 h5 { font-size:120%; }
 h6 { font-size:100%; }
 
+
+.in_title1 h1 {
+    width: 740px;
+    word-wrap: break-word;
+    line-height: 50px;
+    display: block;
+    float: right;
+    top:41px;
+    text-transform: uppercase;
+    font-family: PFDinTextProBold;
+    font-size: 36px!important;
+    color:#312724;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100px;
+    margin: 0px;
+}
+
 hr, .hr 
 {
 	border-top:1px solid;
