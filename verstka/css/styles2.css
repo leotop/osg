@@ -1463,7 +1463,6 @@ margin-bottom: 25px;
     display: block;
     float: right;
     top:41px;
-    color:#000;
     text-transform: uppercase;
     font-family: PFDinTextProBold;
     font-size: 36px!important;
@@ -1473,6 +1472,22 @@ margin-bottom: 25px;
     height: 100px;
 }
 
+.in_title1 h1 {
+    width: 740px;
+    word-wrap: break-word;
+    line-height: 50px;
+    display: block;
+    float: right;
+    top:41px;
+    text-transform: uppercase;
+    font-family: PFDinTextProBold;
+    font-size: 36px!important;
+    color:#312724;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100px;
+    margin: 0px;
+}
 
 .footer_black {
     height:340px;

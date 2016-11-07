@@ -74,8 +74,7 @@
     false
 );?>
                     </div>
-                    
-                     <div class="in_title1"><span><?$APPLICATION->ShowTitle();?></span></div>
+                     <div class="in_title1"><h1><?$APPLICATION->ShowTitle();?></h1></div>
            
            <div class="quote">
            <?$APPLICATION->IncludeComponent(
