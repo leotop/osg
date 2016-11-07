@@ -26,7 +26,7 @@
     
     $crm_data = array();
     $crm_data = array(
-                "TITLE"         => iconv('CP1251', 'UTF-8', "Заявка с сайта OSG"),
+                "TITLE"         => "Заявка с сайта OSG",
                 "NAME"          => $_POST["NAME"],
                 "COMPANY_TITLE" => $_POST["COMPANY"],
                 "EMAIL_WORK"    => $email,
@@ -42,7 +42,7 @@
         echo "ERROR";    
     }    
     
-    //createCRMLead($crm_data);
+    createCRMLead($crm_data);
     
     // отправляем писмо о заказе консультации
     $theme = "Заявка с сайта OSG";
