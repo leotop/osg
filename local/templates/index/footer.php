@@ -14,12 +14,12 @@
   ga('create', 'UA-83734106-1', 'auto');
   ga('send', 'pageview');
 </script>
-<!-- End Google Analytics Code --> 
-<script data-skip-moving="true">
-(function(w,d,u,b){
-s=d.createElement('script');r=1*new Date();s.async=1;s.src=u+'?'+r;
-h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-})(window,document,'http://corp.webgk.net/upload/crm/8d3/8d3b20a92067fc2c3476f8b1159dc76d.js');
-</script>
+<!-- End Google Analytics Code -->
+<script data-skip-moving="true"> 
+(function(w,d,u,b){ 
+s=d.createElement('script');r=1*new Date();s.async=1;s.src=u+'?'+r; 
+h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h); 
+})(window,document,'http://corp.webgk.net/upload/crm/6b7/6b71f1264e65f667e3edd154cca975ec.js'); 
+</script> 
 </body>
 </html>
