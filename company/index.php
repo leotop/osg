@@ -1,8 +1,7 @@
 <?
     require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
     $APPLICATION->SetTitle("О компании");
-?>
-<div class="company_div">
+?><div class="company_div">
     <?$APPLICATION->IncludeFile(SITE_DIR."include/company.php",    Array(),Array("MODE"=>"html"));?>
 </div>
 
