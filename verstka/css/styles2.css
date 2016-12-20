@@ -3798,7 +3798,8 @@ figcaption{
     font-size: 13px;
 }
 .backgraund_brown{
-    background-color: #312724; 
+    background-color: #312724;
+    margin-top: 30px; 
     height: 540px;
     width: 100%;
 }

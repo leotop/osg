@@ -1,11 +1,11 @@
 <?
-    require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "О компании OSG – внедрение CRM на базе Битрикс24 и 1С");
-$APPLICATION->SetPageProperty("keywords", "OSG, Online System Group, Москва, Битрикс24, 1С, база");
-$APPLICATION->SetPageProperty("description", "Компания Online System Group – внедрение популярной учетной системы на базе 1с");
+    require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");     
+    $APPLICATION->SetPageProperty("title", "О компании OSG – внедрение CRM на базе Битрикс24 и 1С");
+    $APPLICATION->SetPageProperty("keywords", "OSG, Online System Group, Москва, Битрикс24, 1С, база");
+    $APPLICATION->SetPageProperty("description", "Компания Online System Group – внедрение популярной учетной системы на базе 1с");
     $APPLICATION->SetTitle("О компании OSG");
 ?>
-<div class="company_div">
+<div class="company_div">                
     <?$APPLICATION->IncludeFile(SITE_DIR."include/company.php",    Array(),Array("MODE"=>"html"));?>
 </div>
 
