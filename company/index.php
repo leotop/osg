@@ -1,6 +1,9 @@
 <?
     require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-    $APPLICATION->SetTitle("О компании");
+$APPLICATION->SetPageProperty("title", "О компании OSG – внедрение CRM на базе Битрикс24 и 1С");
+$APPLICATION->SetPageProperty("keywords", "OSG, Online System Group, Москва, Битрикс24, 1С, база");
+$APPLICATION->SetPageProperty("description", "Компания Online System Group – внедрение популярной учетной системы на базе 1с");
+    $APPLICATION->SetTitle("О компании OSG");
 ?>
 <div class="company_div">
     <?$APPLICATION->IncludeFile(SITE_DIR."include/company.php",    Array(),Array("MODE"=>"html"));?>
@@ -25,7 +28,7 @@
 
                 <div class="inner_defis_irange"></div>
                 <div class="inner_right_detail">
-                    <span>Визитная карточка нашей компании —</span> <a href="/services/integration-1c/">внедрение интегрированный систем на базе 1С и Битрикс24.</a> 
+                    <span>Визитная карточка нашей компании —</span> <a href="/services/integration-1c/">внедрение интегрированных систем на базе 1С и Битрикс24.</a> 
                     <br /><br />
                     Поскольку на данный момент самой популярной учетной системой в России является "1С:Предприятие", компания сделала акцент на <a href="/services/integration-1c/">интеграцию</a> программного продукта именно с этой учетной системой. А так же мы пошли дальше, и разработали стратегии внедрения систем, которые позволяют покрыть все участки учета.
                     <br /><br />

@@ -1,5 +1,5 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-<?              
+<?
     IncludeTemplateLangFile(__FILE__);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -9,7 +9,7 @@
 
         <link rel="icon" href="/osg_fav.png" type="image/png">
         <link rel="shortcut icon" href="/osg_fav.png" type="image/png">
-        
+
         <link rel="stylesheet" type="text/css" href="/verstka/css/styles2.css"/>
         <script src="/verstka/js/jquery.min.js" type="text/javascript"></script>
         <? $APPLICATION->AddHeadScript('/verstka/js/inner_pages_right_menu_fix.js') ?>
@@ -18,19 +18,19 @@
         <script>
             $(window).load(function()  {
                 bgd_height();
-                paddings(); 
+                paddings();
             });
         </script>
-    
+
     <?$APPLICATION->ShowHead();?>
     <title><?$APPLICATION->ShowTitle();?></title>
     </head>
-    
+
     <body>
     <?$APPLICATION->ShowPanel()?>
         <div class="site_wrapper">
         <div class="wrapper">
-            <header>     
+            <header>
                 <?$APPLICATION->IncludeComponent("bitrix:menu", "main_menu", Array(
                 "ROOT_MENU_TYPE" => "main",    // Тип меню для первого уровня
                 "MENU_CACHE_TYPE" => "N",    // Тип кеширования
@@ -54,14 +54,14 @@
 
             </header>
 
-            
+
             <!--Content1-->
             <div class="index_wrapper1">
                 <div class="index_wrapper1_content">
-            
-            
+
+
                 <div class="content_inner1">
-                  <div class="inner1_left">  
+                  <div class="inner1_left">
                     <div class="nav_div">
                         <?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumb_new", array(
 	"START_FROM" => "0",
@@ -71,9 +71,11 @@
 	false
 );?>
                     </div>
-                    
-                     <div class="in_title1"><span><?$APPLICATION->ShowTitle();?></span></div>
-           
+ <?$sSectionName = "";
+$sPath = $_SERVER["DOCUMENT_ROOT"].$APPLICATION->GetCurDir().".section.php";
+include($sPath);?>
+                     <div class="in_title1"><h1><?=$sSectionName?></h1></div>
+
            <div class="quote">
            <?$APPLICATION->IncludeComponent(
            "bitrix:main.include",
@@ -84,18 +86,18 @@
            "EDIT_TEMPLATE" => ""
            ));?>
            </div>
-                      
+
            <div class="in_title2"><span>Online System Group</span></div>
-           
+
            </div>
-           
-           
+
+
            <?
                 CModule::IncludeModule("iblock");
                  $arFilter = array ("IBLOCK_ID" => "10");
                  $arSelectFields = Array("ID","IBLOCK_ID","NAME","CODE");
                  $res = CIBlockElement::GetList( Array("SORT"=>"DESC"),$arFilter,false,array(),$arSelectFields);
-            ?>                              
+            ?>
                 <div class="inner1_right">
                     <ul class="inner1_ul">
                     <?while($ob = $res->Fetch()){?>
@@ -105,7 +107,7 @@
 
                     </ul>
                 </div>
-            
+
            </div>
            </div>
 </div>

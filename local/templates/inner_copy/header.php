@@ -1,5 +1,5 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-<?              
+<?
     IncludeTemplateLangFile(__FILE__);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -17,7 +17,7 @@
     <script>
         $(window).load(function()  {
             bgd_height();
-            paddings(); 
+            paddings();
         });
     </script>
 
@@ -60,7 +60,7 @@
 
 
         <div class="content_inner1">
-            <div class="inner1_left">  
+            <div class="inner1_left">
                 <div class="nav_div">
                     <?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumb_new", array(
                             "START_FROM" => "0",
@@ -70,7 +70,7 @@
                             false
                         );?>
                 </div>
-                <div class="in_title1"><span><?$APPLICATION->ShowTitle();?></span></div>
+                <div class="in_title1"><h1><?$APPLICATION->ShowTitle(false);?></h1></div>
 
                 <div class="in_title2"><span>Online System Group</span></div>
 

@@ -1,7 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("keywords", "OSG, Москва, эффективность переговором, CRM, Битрикс 24, инструмент, портрет клиента");
-$APPLICATION->SetPageProperty("description", "Новый инструмент для оценки эффективности переговоров в CRM Битрикс 24 – Портрет клиента");
+$APPLICATION->SetPageProperty("title", "Новости компании OSG – акции, семинары про срм");
+$APPLICATION->SetPageProperty("keywords", "OSG, Москва, новости, CRM, Битрикс 24, акции, скидки, семинары");
+$APPLICATION->SetPageProperty("description", "Новости, акции от компании OSG. Битрикс24 со скидкой");
 $APPLICATION->SetTitle("Портрет клиента в CRM Битрикс 24 - OSG");
 ?>
 <div class="news">

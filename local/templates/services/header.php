@@ -1,15 +1,15 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-<?              
+<?
     IncludeTemplateLangFile(__FILE__);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
-        
+
         <link rel="icon" href="/osg_fav.png" type="image/png">
         <link rel="shortcut icon" href="/osg_fav.png" type="image/png">
-                
+
         <link rel="stylesheet" type="text/css" href="/verstka/css/styles2.css"/>
         <script src="/verstka/js/jquery.min.js" type="text/javascript"></script>
         <? $APPLICATION->AddHeadScript('/verstka/js/inner_pages_right_menu_fix.js') ?>
@@ -18,10 +18,10 @@
         <script>
             $(window).load(function()  {
                 bgd_height();
-                paddings(); 
+                paddings();
             });
         </script>
-    
+
     <?$APPLICATION->ShowHead();?>
     <title><?$APPLICATION->ShowTitle();?></title>
     </head>
@@ -54,14 +54,14 @@
 
             </header>
 
-            
+
             <!--Content1-->
             <div class="index_wrapper1">
                 <div class="index_wrapper1_content">
-            
-            
+
+
                 <div class="content_inner1">
-                  <div class="inner1_left">  
+                  <div class="inner1_left">
                     <div class="nav_div">
                         <?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumb_new", array(
 	"START_FROM" => "0",
@@ -77,8 +77,8 @@ $sPath = $_SERVER["DOCUMENT_ROOT"].$APPLICATION->GetCurDir().".section.php";
 include($sPath);
 
 ?>
-                     <div class="in_title1"><span><?=$sSectionName;?></span></div>
-           
+                     <div class="in_title1"><h1><?=$sSectionName;?></h1></div>
+
            <div class="quote">
            <?$APPLICATION->IncludeComponent(
            "bitrix:main.include",
@@ -89,14 +89,14 @@ include($sPath);
            "EDIT_TEMPLATE" => ""
            ));?>
            </div>
-           
+
            <div class="in_title2"><span>Online System Group</span></div>
-           
+
            </div>
 
            <?$APPLICATION->IncludeComponent(
-	"bitrix:menu", 
-	"right_menu_services", 
+	"bitrix:menu",
+	"right_menu_services",
 	array(
 		"ROOT_MENU_TYPE" => "right_services",
 		"MENU_CACHE_TYPE" => "N",
@@ -113,7 +113,7 @@ include($sPath);
 	),
 	false
 );?>
-            
+
            </div>
            </div>
 </div>

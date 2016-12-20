@@ -2,7 +2,7 @@
 $aMenuLinks = Array(
 	Array(
 		"Внедрение CRM", 
-		"/services/crm/", 
+		"/services/crm-bitrix24/", 
 		Array(), 
 		Array(), 
 		"" 

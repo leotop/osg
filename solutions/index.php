@@ -1,5 +1,8 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Решения");?>
+$APPLICATION->SetPageProperty("title", "Решения на базе Битрикс24 коробочные и облачные версии - OSG");
+$APPLICATION->SetPageProperty("keywords", "коробочная версия, облачное решение, android, ios, десктоп приложение, 1с трекер, мобильное приложение,  OSG");
+$APPLICATION->SetPageProperty("description", "Возможности для вашего бизнеса – Битрикс24 облачные и коробочные версии, мобильные приложения Android и Ios");
+$APPLICATION->SetTitle("Решения на базе Битрикс24");?>
 
 <div class="content_portf2">
           <?$APPLICATION->IncludeComponent(

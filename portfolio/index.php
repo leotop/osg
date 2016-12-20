@@ -1,5 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Портфолио компании OSG – корпоративные порталы");
+$APPLICATION->SetPageProperty("keywords", "Атомград, Газстройдеталь, Транском,  Webgk, Гильдия консультантов,  Амата, корпоративные порталы,  OSG, Online System Group");
+$APPLICATION->SetPageProperty("description", "Корпоративные порталы Атомград, Газстройдеталь, Транском – портфолио работ компании OSG");
 $APPLICATION->SetTitle("Портфолио");
 ?> 
 <div class="content_portf2"> <?/*
@@ -95,7 +98,7 @@ $APPLICATION->SetTitle("Портфолио");
 		"USE_CATEGORIES" => "N",
 		"USE_REVIEW" => "N",
 		"USE_FILTER" => "N",
-		"SORT_BY1" => "SORT",
+		"SORT_BY1" => "ID",
 		"SORT_ORDER1" => "ASC",
 		"SORT_BY2" => "ACTIVE_FROM",
 		"SORT_ORDER2" => "ASC",

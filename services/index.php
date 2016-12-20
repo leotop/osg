@@ -1,9 +1,11 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Услуги по внедрению CRM Битрикс24 и интернет-магазинов – OSG");
+$APPLICATION->SetPageProperty("keywords", "Битрикс24, внедрение CRM, коробочная версия, облачная версия, интеграция, интернет-магазин, бизнес-процесс");
+$APPLICATION->SetPageProperty("description", "Компания OSG – интеграция 1с и Битрикс24 коробочной и облачной версии, телефонии, настройке рабочего времени и отчетов");
 $APPLICATION->SetTitle("Услуги");
-?>
-                                                                              
-           <p><a href="/services/crm/">Внедрение CRM</a></p>
+?>                                                                
+         <p><a href="/services/crm/">Внедрение CRM</a></p>
            <p><a href="/services/bp/">Настройка бизнес-процессов</a></p>
 
            <p><a href="/services/projects/">Настройка работы с задачами и проектами</a></p>

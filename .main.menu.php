@@ -22,6 +22,13 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
+		"Прайс-лист", 
+		"/price/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
 		"Проекты", 
 		"portfolio/", 
 		Array(), 
